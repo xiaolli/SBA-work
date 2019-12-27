@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选课页面</title>
+
+    <script src="../js/jquery2.0.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <style>
+        table{
+            text-align: center;
+        }
+        div{
+            padding-bottom: 10px;
+            padding-left: 20px;
+            align-content: center;
+            padding-top: 10px;
+        }
+        table{
+            padding-bottom: 10px;
+            padding-left: 20px;
+            align-content: center;
+        }
+    </style>
+
+</head>
+<body style="background-image: url('../img/timg.jpg')">
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">welcome：
+                <span id="user-name-label"></span>~~student
+            </a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                 <li><a id="checkout" href="#" onclick="checkout()">log out</a></li>
+                <li><a href="userPersonalCenter.html">person center</a></li>
+                <!--<li><a href="studentPersonalMsgCenter.html">已选课程列表</a></li>-->
+                 <li><a href="studentCurrentTraining.html">Current Training</a></li>
+                  <li><a href="studentCompleteTraining.html">Complete Training</a></li>
+                  <li><a href="chooseClass.html">choose your Mentor!!</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div>
+
+    </label>time you want to have class：<input id="date" type="date" value="2019-12-13"/>
+    <br>
+</div>
+<div>
+            <label for="technologies">technologies:</label>
+            <select id="technologies" >
+                <option>math</option>
+                <option>Chinese</option>
+                <option>English</option>
+                <option>Japanese</option>
+                
+                <option>JAVA</option>
+                <option>IOS</option>
+                <option>Android</option>
+                
+            </select>
+        </div>
+<div id="showAddCourse">
+    <input type="button" id="tj" value="query">
+</div>
+<div>
+    <table border="1px" cellspacing="0" >
+        <tr>
+            <th>id</th>
+            <th>Mentor name</th>
+            <th>Mentor work year</th>
+            <th>Mentor technologies</th>
+            <th>Mentor phone</th>
+            <th>Mentor charge $</th>
+            <th>startDate</th>
+            <th>endDate</th>
+            <th>
+                operation
+            </th>
+        </tr>
+        <tbody id="tr_td">
+
+        </tbody>
+
+    </table>
+</div>
+
+
+
+
+<script type="text/javascript">
+    $(function() {
+
+        //从session中获取登陆用户，并显示用户名
+        $.ajax({
+            type: "GET",
+            url: "/user/userMsg",
+            dataType: "json", //return dataType: text or json
+            data: null,
+            contentType: "application/json",
+            success: function (data) {
+                console.log(data.name);
+                // debugger
+                $("#user-name-label").html(data.name);
+
+               
+                var studentName = data.name;
+               
+
+               
+                $("#tj").click(function() {
+                
+                    var date = $("#date").val();
+                    var technologies = $("#technologies").val();
+                
+                    var html ="";
+                    $.ajax({
+                        type: "POST",
+                        url: "/course/showChooseCourse",
+                        data: JSON.stringify({"date":date,"technologies":technologies}),
+                        dataType: "json", //return dataType: text or json
+                        contentType: "application/json",
+                        success: function(data) {
+                            if (data.status == 200){
+
+                                console.log(data)
+                                for (var i=0;i<data.data.length;i++){
+                                    var id = data.data[i].id;
+                                    var teacherName = data.data[i].teacherName;
+                                    var workyear = data.data[i].workyear; 
+                                    var technologies = data.data[i].technologies; 
+                                    var phone = data.data[i].phone; 
+                                    var fee = data.data[i].fee; 
+                                    var startDate = data.data[i].startDate; 
+                                    var endDate = data.data[i].endDate; 
+
+                                    //按照教师id从后台查询授课老师姓名的信息。
+                                   /*  $.ajax({
+                                        type: "POST",
+                                        async:false,
+                                        url: "/teacher/showTeacherName",
+                                        dataType: "json", //return dataType: text or json
+                                        data: JSON.stringify({"id":teacherId}),
+                                        contentType: "application/json",
+                                        success: function (data) {
+
+                                            if (data.status==100){
+                                                teacherName = data.message;
+                                            }else if (data.status == 200){
+                                                teacherName = data.data.name;
+                                            }else {
+                                                teacherName = "出错";
+                                            }
+                                        }
+                                    });
+ */
+                                    html += "<tr id='bottom-text'>";
+                                    html += "<td>";
+                                    html += id;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += teacherName;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += workyear;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += technologies;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += phone;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += fee;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += startDate;
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+                                    html += endDate;
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+                                    html += " <input type='button' id='apply'  onclick='chooseCourse(event,"+i+")' value='apply'>";
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+
+                                    
+                                   /*   $.ajax({
+                                        type: "POST",
+                                        async:false,
+                                        url: "/student/chooseCourse", 
+                                         dataType: "json", //return dataType: text or json
+                                        data: {"studentName":studentName,"courseId":id},
+                                        contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+                                        success: function (data2) {
+
+                                                html += "<div id='chooseCourseButton"+i;
+                                                if(data2.status!= id){
+                                                    // consloe.log(html);
+                                                    html += "'><input type='button'  value='选课' onclick='chooseCourse(event,"+i+")'>";
+                                                }
+                                                else if(data2.status == id){
+                                                    html += "'><span style='color: darkgray;'>已选</span>";
+                                                }
+                                                }
+
+                                    });  */
+                                    html += "</div>";
+                                    html += "</td>";
+                                    html += "</tr>";
+
+                                }
+                                $("#tr_td").html(html);
+                            }
+                            else if(data.message == "无符合条件课程"){
+
+                                alert("no mentor for your choose");/*没有老师的院系和该学生的院系一样*/
+                            }
+                            else{
+                                alert(data.message);
+                            }
+                        }
+                    });
+                });
+            }
+        });
+
+    });
+
+    //点击”选课“按钮，触发该函数
+    function chooseCourse(event,i) {
+		
+        event.target; //获取事件发生的位置
+        var id = $(event.target).parents('tr').eq(0).find('td').eq(0).text(); //获取对应的信息的id
+        var trainerName = $("#user-name-label").text();
+        var teacherName = $(event.target).parents('tr').eq(0).find('td').eq(1).text();
+        var date = $("#date").val();
+       debugger;
+        $.ajax({
+            type: "POST",
+            async:false,
+            url: "/course/studentApply",
+            dataType: "json", //return dataType: text or json
+            data : JSON.stringify({"trainerName":trainerName,"mentorName":teacherName,"date":date}),
+            contentType: "application/json",
+            success: function(data3) {
+                console.log(data3.status);
+
+                if (data3.status == 200) {
+                    alert("apply success");
+                   
+                }
+               
+            }
+        });
+
+    }
+
+    /*退出登录的ajax*/
+    function checkout() {
+        $.ajax({
+            type: "GET",
+            url: "/user/checkout",
+            dataType: "json", //return dataType: text or json
+            data: null,
+            contentType: "application/json",
+            success: function (data) {
+                if(data.message=="200"){
+                    alert("log out success");
+                    window.location.href = "../student/login.html";
+                }else {
+                    alert("服务器错误，请联系管理员");
+                }
+            }
+        });
+    }
+</script>
+
+</body>
+</html>

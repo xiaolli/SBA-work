@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>选课页面</title>
+
+    <script src="../js/jquery2.0.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <style>
+        table{
+            text-align: center;
+        }
+        div{
+            padding-bottom: 10px;
+            padding-left: 20px;
+            align-content: center;
+            padding-top: 10px;
+        }
+        table{
+            padding-bottom: 10px;
+            padding-left: 20px;
+            align-content: center;
+        }
+    </style>
+
+</head>
+<body style="background-image: url('../img/timg.jpg')">
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">welcome：
+                <span id="user-name-label"></span>~~student
+            </a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a id="checkout" href="#" onclick="checkout()">log out</a></li>
+                <li><a href="userPersonalCenter.html">person center</a></li>
+                <!--<li><a href="studentPersonalMsgCenter.html">已选课程列表</a></li>-->
+                 <li><a href="studentCurrentTraining.html">Current Training</a></li>
+                  <li><a href="studentCompleteTraining.html">Complete Training</a></li>
+                  <li><a href="chooseClass.html">choose your Mentor!!</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+ <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+
+		Below is Complete Trainings
+            
+            </a>
+        </div>
+<div>
+    <table border="1px" cellspacing="0" >
+        <tr>
+            <th>id</th>
+              <th>Trainer name</th>
+               
+            <th>Training state</th>
+          <th> Mentor Name</th>
+            <th>date</th>
+            <th>skill</th>
+            
+        </tr>
+        <tbody id="tr_td">
+
+        </tbody>
+
+    </table>
+</div>
+
+
+
+
+<script type="text/javascript">
+    $(function() {
+
+        //从session中获取登陆用户，并显示用户名
+        $.ajax({
+            type: "GET",
+            url: "/user/userMsg",
+            dataType: "json", //return dataType: text or json
+            data: null,
+            contentType: "application/json",
+            success: function (data) {
+                console.log(data.name);
+                // debugger
+                $("#user-name-label").html(data.name);
+
+                var html ="";
+                var studentName = data.name;
+                $.ajax({
+                    type: "POST",
+                    url: "/course/completeTraining",
+                    data: JSON.stringify({"studentName":studentName}),
+                    dataType: "json", //return dataType: text or json
+                    contentType: "application/json",
+                    success: function(data) {
+                        if (data.status == 200){
+
+                            console.log(data)
+                            for (var i=0;i<data.data.length;i++){
+                                var id = data.data[i].id;
+                                var trainingState = data.data[i].trainingState;
+                                var trainerName = data.data[i].trainerName; 
+                                var mentorName = data.data[i].mentorName; 
+                                var date = data.data[i].date; 
+                                var skill = data.data[i].skill; 
+                          
+
+                                html += "<tr id='bottom-text'>";
+                                html += "<td>";
+                                html += id;
+                                html += "</td>";
+
+                                html += "<td>";
+                                html += trainerName;
+                                html += "</td>";
+
+                                html += "<td>";
+                                html += trainingState;
+                                html += "</td>";
+
+                                html += "<td>";
+                                html += mentorName;
+                                html += "</td>";
+
+                                html += "<td>";
+                                html += date;
+                                html += "</td>";
+
+                                html += "<td>";
+                                html += skill;
+                                html += "</td>";
+                                
+                               
+                                html += "<td>";
+
+                            
+                              
+                                html += "</div>";
+                                html += "</td>";
+                                html += "</tr>";
+
+                            }
+                            $("#tr_td").html(html);
+                        }
+                        else if(data.message == "无符合条件课程"){
+
+                            alert("您暂时无法选课，请联系管理员");/*没有老师的院系和该学生的院系一样*/
+                        }
+                        else{
+                            alert(data.message);
+                        }
+                    }
+                });
+
+               
+              
+            }
+        });
+
+    });
+
+    //点击”选课“按钮，触发该函数
+    function chooseCourse(event,i) {
+		
+        event.target; //获取事件发生的位置
+        var id = $(event.target).parents('tr').eq(0).find('td').eq(0).text(); //获取对应的信息的id
+        var trainerName = $("#user-name-label").text();
+        var teacherName = $(event.target).parents('tr').eq(0).find('td').eq(1).text();
+        var date = $("#date").val();
+       debugger;
+        $.ajax({
+            type: "POST",
+            async:false,
+            url: "/course/studentApply",
+            dataType: "json", //return dataType: text or json
+            data : JSON.stringify({"trainerName":trainerName,"mentorName":teacherName,"date":date}),
+            contentType: "application/json",
+            success: function(data3) {
+                console.log(data3.status);
+
+                if (data3.status == 200) {
+                    alert("apply success");
+                   
+                }
+               
+            }
+        });
+
+    }
+
+    /*退出登录的ajax*/
+    function checkout() {
+        $.ajax({
+            type: "GET",
+            url: "/user/checkout",
+            dataType: "json", //return dataType: text or json
+            data: null,
+            contentType: "application/json",
+            success: function (data) {
+                if(data.message=="200"){
+                    alert("log out success");
+                    window.location.href = "../student/login.html";
+                }else {
+                    alert("服务器错误，请联系管理员");
+                }
+            }
+        });
+    }
+</script>
+
+</body>
+</html>

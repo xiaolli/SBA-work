@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<script src="../js/jquery2.0.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Bootstrap JS -->
+    <!--<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <title>pay</title>
+
+    <!--<link href="head.css" rel="stylesheet">-->
+
+    <style>
+        table{
+            text-align: center;
+        }
+        div{
+            padding-bottom: 10px;
+            padding-left: 20px;
+            align-content: center;
+            padding-top: 10px;
+        }
+        table{
+            padding-bottom: 10px;
+            padding-left: 20px;
+            align-content: center;
+        }
+    </style>
+
+</head>
+<body style="background-image: url('../img/timg.jpg')">
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">welcome admin：
+                <span id="user-name-label"></span>
+            </a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a id="checkout" href="#" onclick="checkout()">log out</a></li>
+                <li><a href="manageTec.html">tecnologies manage</a></li>
+                 <li><a href="showPay.html">Show Pay detail</a></li>
+                  <li><a href="manageUser.html">user manage</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<div>
+    <span>pay</span>
+</div>
+
+<div>
+<table border="1px" cellspacing="0" >
+    <tr>
+        <th>id</th>
+        <th>tecName</th>
+        <th>Mentor Name</th>
+        <th>money should be pay</th>
+       
+        <th>
+         operation 
+        </th>
+    </tr>
+    <tbody id="tr_td">
+
+    </tbody>
+
+</table>
+</div>
+
+<div>
+    <input type="button" id="tj" value="show pay">
+</div>
+
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                <h4 class="modal-title" id="myModalLabel">update</h4>
+            </div>
+
+            <div>
+                <span hidden>id：</span>
+                <input type="number" id="id" value="" hidden>
+            </div>
+
+           
+
+            <div>
+                <span>tecnologies Name：</span>
+                <input type="text" id="tecName">
+                <span id="username1" style="color: brown;"></span>
+            </div>
+
+            <div>
+                <span>Mentor Name：</span>
+                <input type="text" id="userName">
+                <span id="age1" style="color: brown;"></span>
+            </div>
+
+            <div>
+                <span>money should be pay：</span>
+                <input type="text" id="money">
+                <span id="sex1" style="color: brown;"></span>
+            </div>
+
+           
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">close</button>
+                <button type="button" class="btn btn-primary" onclick="updateStudentMsg()">update</button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+
+
+<script type="text/javascript">
+    $(function() {
+
+        //从session中获取登陆用户，并显示用户名
+        $.ajax({
+            type: "GET",
+            url: "/user/userMsg",
+            dataType: "json", //return dataType: text or json
+            data: null,
+            contentType: "application/json",
+            success: function (data) {
+                console.log(data.name);
+                // debugger
+                $("#user-name-label").html(data.name)
+              
+                    
+                   
+                
+                    var html ="";
+                    $.ajax({
+                        type: "POST",
+                        url: "/student/showPay",
+                        data: null,
+                        dataType: "json", //return dataType: text or json
+                        contentType: "application/json",
+                        success: function(data) {
+                            if (data.status == 200){
+
+                                console.log(data)
+                                for (var i=0;i<data.data.length;i++){
+                                    var id = data.data[i].id;
+                                    var tecName = data.data[i].tecName;
+                                    var userName = data.data[i].userName; 
+                                    var money = data.data[i].money; 
+                                 
+                                   
+                                    html += "<tr id='bottom-text'>";
+                                    html += "<td>";
+                                    html += id;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += tecName;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += userName;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += money;
+                                    html += "</td>";
+
+                                   
+                                    
+                                    html += "<td>";
+                                    html += "<input type='button' id='updateButton' value='update' onclick='toUpdate(event)' data-toggle='modal' data-target='#myModal'>";
+                                    html += "<input type='button' id='deleteButton' value='delete' onclick='deleteStudentMsg(event)'>";
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+
+                                    
+                                   
+                                    html += "</div>";
+                                    html += "</td>";
+                                    html += "</tr>";
+
+                                }
+                                $("#tr_td").html(html);
+                            }
+                            else if(data.message == "无符合条件课程"){
+
+                                alert("no mentor for your choose");/*没有老师的院系和该学生的院系一样*/
+                            }
+                            else{
+                                alert(data.message);
+                            }
+                        }
+                    });
+                
+            }
+        });
+
+        //从数据库中循环获取所有学生信息，并显示
+        
+        
+        
+        
+
+    });
+
+    
+    
+    //点击"修改"按钮，触发该函数
+    function toUpdate(event) {
+
+        event.target; //获取事件发生的位置
+        var id = $(event.target).parents('tr').eq(0).find('td').eq(0).text(); //获取对应的信息的id
+	
+
+        //按照id从后台查询该学生的信息。
+        $.ajax({
+            type: "POST",
+            url: "/student/toPay",
+            dataType: "json", //return dataType: text or json
+            data: {"id":id},
+            contentType: "application/json",
+            success: function (data) {
+
+                //将从后台查取到的值显示到模态框中
+                 $("#id").attr("value",data.data.id);
+                $("#tecName").attr("value",data.data.tecName);
+                $("#userName").attr("value",data.data.userName);
+                $("#money").attr("value",data.data.money);
+               
+            }
+
+        });
+
+    };
+
+    //点击”提交更改“触发的函数
+    function updateStudentMsg() {
+        var id = $("#id").val();
+        var tecName = $("#tecName").val();
+        var userName = $("#userName").val();
+        var money = $("#money").val();
+      
+
+        //更新表记录
+        $.ajax({
+            type: "POST",
+            url: "/student/updatePay",
+            dataType: "json", //return dataType: text or json
+            data : JSON.stringify({"id":id,"tecName":tecName,"userName":userName,"money":money}),
+            contentType: "application/json",
+            success: function(data) {
+                console.log(data);
+                // debugger
+                if (data.message==="success"){
+                    alert("修改成功！");
+                    window.location.reload();
+                }else  {
+                    alert(data.data);
+                }
+            }
+        });
+
+    };
+
+    //点击”删除“按钮，触发该函数
+    function deleteStudentMsg(event) {
+
+        event.target; //获取事件发生的位置
+        var id = $(event.target).parents('tr').eq(0).find('td').eq(0).text(); //获取对应的信息的id
+
+        //更新删除字段
+        $.ajax({
+            type: "POST",
+            url: "/student/deletePay",
+            dataType: "json", //return dataType: text or json
+            data : JSON.stringify({"id":id}),
+            contentType: "application/json",
+            success: function(data) {
+                console.log(data);
+                // debugger
+                if (data.message==="success"){
+                    alert("删除成功！");
+                    window.location.reload();
+                }else  {
+                    alert(data.data);
+                }
+            }
+        });
+    }
+
+    /*退出登录的ajax*/
+    function checkout() {
+        $.ajax({
+            type: "GET",
+            url: "/user/checkout",
+            dataType: "json", //return dataType: text or json
+            data: null,
+            contentType: "application/json",
+            success: function (data) {
+                if(data.message=="200"){
+                    alert("log out success");
+                    window.location.href = "../student/login.html";
+                }else {
+                    alert("服务器错误，请联系管理员");
+                }
+            }
+        });
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>manage tecnologies</title>
+    <script src="../js/jquery2.0.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <style>
+        div{
+            padding-bottom: 10px;
+            align-content: center;
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body style="background-image: url('../img/timg.jpg')">
+
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">welcome：
+                <span id="user-name-label"></span>~Administrators
+            </a>
+        </div>
+        <div>
+            <ul class="nav navbar-nav">
+                <li><a id="checkout" href="#" onclick="checkout()">log out</a></li>
+                <li><a href="manageTec.html">tecnologies manage</a></li>
+                 <li><a href="showPay.html">Show Pay detail</a></li>
+                  <li><a href="manageUser.html">user manage</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div id="showAddCourse">
+   query all Users: <input type="button" id="tj" value="query">
+</div>
+<div>
+    <table border="1px" cellspacing="0" >
+        <tr>
+           <th>id</th>
+            <th>user name</th>
+            <th>user password</th>
+            <th>user work year</th>
+             <th>user access</th>
+            <th>user phone</th>
+            <th>user email</th>
+            
+            <th>status</th>
+            <th>
+                operation
+            </th>
+        </tr>
+        <tbody id="tr_td">
+
+        </tbody>
+
+    </table>
+</div>
+
+
+
+<script>
+    $(function() {
+		
+        $.ajax({
+        	
+            type: "GET",
+            url: "/user/userMsg",
+            dataType: "json", //return dataType: text or json
+            data: null,
+            contentType: "application/json",
+            success: function (data) {
+                // debugger
+                $("#user-name-label").html(data.name);
+                
+                $("#tj").click(function() {
+                  
+                
+                    var html ="";
+                    $.ajax({
+                        type: "POST",
+                        url: "/course/showAllUsers",
+                        data: null,
+                        dataType: "json", //return dataType: text or json
+                        contentType: "application/json",
+                        success: function(data) {
+                            if (data.status == 200){
+
+                                console.log(data)
+                                for (var i=0;i<data.data.length;i++){
+                                    var id = data.data[i].id;
+                                    var userName = data.data[i].name;
+                                    var password = data.data[i].password;
+                                    var workyear = data.data[i].workyear;
+                                    var access = data.data[i].access;
+                                    var phone = data.data[i].phone;
+                                    var email = data.data[i].email;
+                                    var status = data.data[i].status;
+                                    
+                                  
+
+                                    html += "<tr id='bottom-text'>";
+                                    html += "<td>";
+                                    html += id;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += userName;
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+                                    html += password;
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+                                    html += workyear;
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+                                    html += access;
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+                                    html += phone;
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+                                    html += email;
+                                    html += "</td>";
+
+                                    html += "<td>";
+                                    html += status;
+                                    html += "</td>";
+                                   
+                                    
+                                    html += "<td>";
+                                    html += " <input type='button' id='delete'  onclick='deleteUser(event,"+i+")' value='delete'>";
+                                    html += "</td>";
+                                    
+                                    html += "<td>";
+
+                                    
+                                  
+                                    html += "</div>";
+                                    html += "</td>";
+                                    html += "</tr>";
+
+                                }
+                                $("#tr_td").html(html);
+                            }
+                            else if(data.message == "no users"){
+
+                                alert("no users");/*没有老师的院系和该学生的院系一样*/
+                            }
+                            else{
+                                alert(data.message);
+                            }
+                        }
+                    });
+                });
+            }
+        });
+    });
+
+ function deleteUser(event,i) {
+		
+        event.target; //获取事件发生的位置
+        var id = $(event.target).parents('tr').eq(0).find('td').eq(0).text(); //获取对应的信息的id
+
+        $.ajax({
+        
+            type: "POST",
+            url: "/course/deleteUser",
+            dataType: "json", //return dataType: text or json
+            data : JSON.stringify({"id":id}),
+            contentType: "application/json",
+            success: function(data) {
+                console.log(data.status);
+				
+                if (data.status == 200) {
+                    alert("delete success");
+                   
+                }
+               
+            }
+        });
+
+    }
+    
+    
+    /*退出登录的ajax*/
+    function checkout() {
+        $.ajax({
+            type: "GET",
+            url: "/user/checkout",
+            dataType: "json", //return dataType: text or json
+            data: null,
+            contentType: "application/json",
+            success: function (data) {
+                if(data.message=="200"){
+                    alert("log out success");
+                    window.location.href = "../student/login.html";
+                }else {
+                    alert("服务器错误，请联系管理员");
+                }
+            }
+        });
+    }
+    
+    /*点击添加触发的函数*/
+    function addCourseMsg() {
+
+        var tecName = $("#tecName").val();
+     
+        if (tecName == ""){
+            $("#courseName1").html("need write");
+            return;
+        }
+        
+
+       
+        $.ajax({
+            type: "POST",
+            url: "/course/addTec",
+            dataType: "json", //return dataType: text or json
+            data: JSON.stringify({"tecName":tecName}),
+            contentType: "application/json",
+            success: function (data) {
+            	 if (data.status == 200){
+            	alert("add success");
+            	 }
+            }
+        });
+
+    }
+</script>
+
+
+
+</body>
+</html>

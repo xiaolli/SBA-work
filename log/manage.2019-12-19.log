@@ -1,0 +1,488 @@
+848  [INFO ] 2019-12-19 16:51:43 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 21936 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+848  [DEBUG] 2019-12-19 16:51:43 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+848  [INFO ] 2019-12-19 16:51:43 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+1785 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+1790 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+1792 [DEBUG] 2019-12-19 16:51:44 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+1808 [DEBUG] 2019-12-19 16:51:44 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2604 [INFO ] 2019-12-19 16:51:45 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2620 [INFO ] 2019-12-19 16:51:45 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2636 [INFO ] 2019-12-19 16:51:45 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2636 [INFO ] 2019-12-19 16:51:45 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2651 [INFO ] 2019-12-19 16:51:45 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+2761 [INFO ] 2019-12-19 16:51:45 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2761 [INFO ] 2019-12-19 16:51:45 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1835 ms
+3089 [DEBUG] 2019-12-19 16:51:46 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+3094 [DEBUG] 2019-12-19 16:51:46 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+3094 [DEBUG] 2019-12-19 16:51:46 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+3094 [DEBUG] 2019-12-19 16:51:46 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+3094 [DEBUG] 2019-12-19 16:51:46 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+3094 [DEBUG] 2019-12-19 16:51:46 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+3094 [DEBUG] 2019-12-19 16:51:46 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+3094 [DEBUG] 2019-12-19 16:51:46 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+3094 [DEBUG] 2019-12-19 16:51:46 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+3532 [DEBUG] 2019-12-19 16:51:46 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+3563 [DEBUG] 2019-12-19 16:51:46 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+3579 [DEBUG] 2019-12-19 16:51:46 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+3594 [DEBUG] 2019-12-19 16:51:46 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+3876 [INFO ] 2019-12-19 16:51:46 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4032 [DEBUG] 2019-12-19 16:51:47 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+4157 [INFO ] 2019-12-19 16:51:47 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+4186 [INFO ] 2019-12-19 16:51:47 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+4202 [INFO ] 2019-12-19 16:51:47 [main] com.example.demo.DemoApplication - Started DemoApplication in 4.014 seconds (JVM running for 5.576)
+54798 [INFO ] 2019-12-19 16:52:37 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+54798 [INFO ] 2019-12-19 16:52:37 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+54813 [INFO ] 2019-12-19 16:52:37 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+260859 [DEBUG] 2019-12-19 16:56:03 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+260864 [DEBUG] 2019-12-19 16:56:03 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@508430f3] was not registered for synchronization because synchronization is not active
+260864 [INFO ] 2019-12-19 16:56:03 [http-nio-8888-exec-4] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+262114 [INFO ] 2019-12-19 16:56:05 [http-nio-8888-exec-4] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+262125 [DEBUG] 2019-12-19 16:56:05 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1980267716 wrapping com.mysql.cj.jdbc.ConnectionImpl@614df598] will not be managed by Spring
+262125 [DEBUG] 2019-12-19 16:56:05 [http-nio-8888-exec-4] c.e.d.mapper.UserMapper.insertUsers - ==>  Preparing: -- 传入的为user对象里边有各字段 insert into user(user_name,user_password,user_phone,user_access,user_email,user_workyear,user_status) values (?,?,?,?,?,?,?) 
+262156 [DEBUG] 2019-12-19 16:56:05 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@508430f3]
+313749 [DEBUG] 2019-12-19 16:56:56 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+313749 [DEBUG] 2019-12-19 16:56:56 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2304d1ee] was not registered for synchronization because synchronization is not active
+313756 [DEBUG] 2019-12-19 16:56:56 [http-nio-8888-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@808068065 wrapping com.mysql.cj.jdbc.ConnectionImpl@614df598] will not be managed by Spring
+313756 [DEBUG] 2019-12-19 16:56:56 [http-nio-8888-exec-5] c.e.d.mapper.UserMapper.insertUsers - ==>  Preparing: -- 传入的为user对象里边有各字段 insert into user(user_name,user_password,user_phone,user_access,user_email,user_workyear,user_status) values (?,?,?,?,?,?,?) 
+313756 [DEBUG] 2019-12-19 16:56:56 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2304d1ee]
+327604 [INFO ] 2019-12-19 16:57:10 [RMI TCP Connection(8)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+327610 [INFO ] 2019-12-19 16:57:10 [RMI TCP Connection(8)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+327610 [INFO ] 2019-12-19 16:57:10 [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+327625 [INFO ] 2019-12-19 16:57:10 [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+841  [INFO ] 2019-12-19 16:57:15 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 1564 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+841  [DEBUG] 2019-12-19 16:57:15 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+856  [INFO ] 2019-12-19 16:57:15 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+1888 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+1891 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+1892 [DEBUG] 2019-12-19 16:57:16 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+1907 [DEBUG] 2019-12-19 16:57:16 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2720 [INFO ] 2019-12-19 16:57:16 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2735 [INFO ] 2019-12-19 16:57:16 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2751 [INFO ] 2019-12-19 16:57:16 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2751 [INFO ] 2019-12-19 16:57:16 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2767 [INFO ] 2019-12-19 16:57:16 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+2985 [INFO ] 2019-12-19 16:57:17 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2985 [INFO ] 2019-12-19 16:57:17 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2082 ms
+3208 [DEBUG] 2019-12-19 16:57:17 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+3223 [DEBUG] 2019-12-19 16:57:17 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+3223 [DEBUG] 2019-12-19 16:57:17 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+3223 [DEBUG] 2019-12-19 16:57:17 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+3223 [DEBUG] 2019-12-19 16:57:17 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+3223 [DEBUG] 2019-12-19 16:57:17 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+3223 [DEBUG] 2019-12-19 16:57:17 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+3223 [DEBUG] 2019-12-19 16:57:17 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+3223 [DEBUG] 2019-12-19 16:57:17 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+3379 [DEBUG] 2019-12-19 16:57:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+3395 [DEBUG] 2019-12-19 16:57:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+3395 [DEBUG] 2019-12-19 16:57:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+3426 [DEBUG] 2019-12-19 16:57:17 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+3833 [INFO ] 2019-12-19 16:57:17 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4004 [DEBUG] 2019-12-19 16:57:18 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+4128 [INFO ] 2019-12-19 16:57:18 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+4175 [INFO ] 2019-12-19 16:57:18 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+4175 [INFO ] 2019-12-19 16:57:18 [main] com.example.demo.DemoApplication - Started DemoApplication in 3.972 seconds (JVM running for 5.54)
+4582 [INFO ] 2019-12-19 16:57:18 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+4582 [INFO ] 2019-12-19 16:57:18 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+4582 [INFO ] 2019-12-19 16:57:18 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+4707 [DEBUG] 2019-12-19 16:57:18 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4707 [DEBUG] 2019-12-19 16:57:18 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1790b461] was not registered for synchronization because synchronization is not active
+4722 [INFO ] 2019-12-19 16:57:18 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5675 [INFO ] 2019-12-19 16:57:19 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+5684 [DEBUG] 2019-12-19 16:57:19 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@618017354 wrapping com.mysql.cj.jdbc.ConnectionImpl@1f5dde06] will not be managed by Spring
+5684 [DEBUG] 2019-12-19 16:57:19 [http-nio-8888-exec-1] c.e.d.mapper.UserMapper.insertUsers - ==>  Preparing: -- 传入的为user对象里边有各字段 insert into user(user_name,user_password,user_phone,user_access,user_email,user_workyear,user_status) values (?,?,?,?,?,?,?) 
+5715 [DEBUG] 2019-12-19 16:57:19 [http-nio-8888-exec-1] c.e.d.mapper.UserMapper.insertUsers - ==> Parameters: wdehaots@cn.ibm.cm(String), password(String), 110(String), wdehaots@cn.ibm.cm(String), 教师(String), null, null
+5731 [DEBUG] 2019-12-19 16:57:19 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1790b461]
+153426 [INFO ] 2019-12-19 16:59:47 [RMI TCP Connection(6)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+153428 [INFO ] 2019-12-19 16:59:47 [RMI TCP Connection(6)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+153428 [INFO ] 2019-12-19 16:59:47 [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+153444 [INFO ] 2019-12-19 16:59:47 [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+716  [INFO ] 2019-12-19 17:00:06 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 23388 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+716  [DEBUG] 2019-12-19 17:00:06 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+716  [INFO ] 2019-12-19 17:00:06 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+1748 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+1763 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+1764 [DEBUG] 2019-12-19 17:00:07 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+1780 [DEBUG] 2019-12-19 17:00:07 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2592 [INFO ] 2019-12-19 17:00:08 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2608 [INFO ] 2019-12-19 17:00:08 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2623 [INFO ] 2019-12-19 17:00:08 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2623 [INFO ] 2019-12-19 17:00:08 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2639 [INFO ] 2019-12-19 17:00:08 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+2748 [INFO ] 2019-12-19 17:00:08 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2748 [INFO ] 2019-12-19 17:00:08 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1985 ms
+2983 [DEBUG] 2019-12-19 17:00:08 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+3004 [DEBUG] 2019-12-19 17:00:08 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+3004 [DEBUG] 2019-12-19 17:00:08 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+3004 [DEBUG] 2019-12-19 17:00:08 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+3004 [DEBUG] 2019-12-19 17:00:08 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+3004 [DEBUG] 2019-12-19 17:00:08 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+3004 [DEBUG] 2019-12-19 17:00:08 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+3004 [DEBUG] 2019-12-19 17:00:08 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+3004 [DEBUG] 2019-12-19 17:00:08 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+3254 [DEBUG] 2019-12-19 17:00:08 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+3269 [DEBUG] 2019-12-19 17:00:08 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+3285 [DEBUG] 2019-12-19 17:00:08 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+3300 [DEBUG] 2019-12-19 17:00:08 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+3535 [INFO ] 2019-12-19 17:00:09 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+3722 [DEBUG] 2019-12-19 17:00:09 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+3879 [INFO ] 2019-12-19 17:00:09 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+3925 [INFO ] 2019-12-19 17:00:09 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+3925 [INFO ] 2019-12-19 17:00:09 [main] com.example.demo.DemoApplication - Started DemoApplication in 3.769 seconds (JVM running for 5.078)
+4144 [INFO ] 2019-12-19 17:00:09 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+4144 [INFO ] 2019-12-19 17:00:09 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+4155 [INFO ] 2019-12-19 17:00:09 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+4280 [DEBUG] 2019-12-19 17:00:09 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4296 [DEBUG] 2019-12-19 17:00:09 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@508d6fb9] was not registered for synchronization because synchronization is not active
+4296 [INFO ] 2019-12-19 17:00:09 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+5218 [INFO ] 2019-12-19 17:00:10 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+5233 [DEBUG] 2019-12-19 17:00:10 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1357273196 wrapping com.mysql.cj.jdbc.ConnectionImpl@46882ef2] will not be managed by Spring
+5233 [DEBUG] 2019-12-19 17:00:10 [http-nio-8888-exec-1] c.e.d.mapper.UserMapper.insertUsers - ==>  Preparing: insert into user(user_name,user_password,user_phone,user_access,user_email,user_workyear,user_status) values (?,?,?,?,?,?,?) 
+5264 [DEBUG] 2019-12-19 17:00:10 [http-nio-8888-exec-1] c.e.d.mapper.UserMapper.insertUsers - ==> Parameters: wdehaots@cn.ibm.cm(String), password(String), 110(String), wdehaots@cn.ibm.cm(String), 教师(String), null, 1(Integer)
+5264 [DEBUG] 2019-12-19 17:00:10 [http-nio-8888-exec-1] c.e.d.mapper.UserMapper.insertUsers - <==    Updates: 1
+5264 [DEBUG] 2019-12-19 17:00:10 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@508d6fb9]
+95451 [DEBUG] 2019-12-19 17:01:41 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+95451 [DEBUG] 2019-12-19 17:01:41 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10d57fb3] was not registered for synchronization because synchronization is not active
+95456 [DEBUG] 2019-12-19 17:01:41 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@504529881 wrapping com.mysql.cj.jdbc.ConnectionImpl@46882ef2] will not be managed by Spring
+95456 [DEBUG] 2019-12-19 17:01:41 [http-nio-8888-exec-9] c.e.d.mapper.UserMapper.insertUsers - ==>  Preparing: insert into user(user_name,user_password,user_phone,user_access,user_email,user_workyear,user_status) values (?,?,?,?,?,?,?) 
+95456 [DEBUG] 2019-12-19 17:01:41 [http-nio-8888-exec-9] c.e.d.mapper.UserMapper.insertUsers - ==> Parameters: wdehaots@cn.ibm.com(String), password(String), 1111111(String), wdehaots@cn.ibm.com(String), 教师(String), null, 1(Integer)
+95456 [DEBUG] 2019-12-19 17:01:41 [http-nio-8888-exec-9] c.e.d.mapper.UserMapper.insertUsers - <==    Updates: 1
+95456 [DEBUG] 2019-12-19 17:01:41 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@10d57fb3]
+147338 [DEBUG] 2019-12-19 17:02:32 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+147338 [DEBUG] 2019-12-19 17:02:32 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26b1ea90] was not registered for synchronization because synchronization is not active
+147338 [DEBUG] 2019-12-19 17:02:32 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@702484904 wrapping com.mysql.cj.jdbc.ConnectionImpl@46882ef2] will not be managed by Spring
+147338 [DEBUG] 2019-12-19 17:02:32 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+147338 [DEBUG] 2019-12-19 17:02:32 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - ==> Parameters: wangdehaots@cn.ibm.com(String), 教师(String)
+147369 [DEBUG] 2019-12-19 17:02:32 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - <==      Total: 0
+147369 [DEBUG] 2019-12-19 17:02:32 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26b1ea90]
+165550 [DEBUG] 2019-12-19 17:02:51 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+165550 [DEBUG] 2019-12-19 17:02:51 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12907eff] was not registered for synchronization because synchronization is not active
+165550 [DEBUG] 2019-12-19 17:02:51 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@475501277 wrapping com.mysql.cj.jdbc.ConnectionImpl@46882ef2] will not be managed by Spring
+165550 [DEBUG] 2019-12-19 17:02:51 [http-nio-8888-exec-4] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+165550 [DEBUG] 2019-12-19 17:02:51 [http-nio-8888-exec-4] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), 教师(String)
+165550 [DEBUG] 2019-12-19 17:02:51 [http-nio-8888-exec-4] c.e.demo.mapper.UserMapper.login - <==      Total: 0
+165550 [DEBUG] 2019-12-19 17:02:51 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12907eff]
+188429 [DEBUG] 2019-12-19 17:03:14 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+188429 [DEBUG] 2019-12-19 17:03:14 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@205bed83] was not registered for synchronization because synchronization is not active
+188429 [DEBUG] 2019-12-19 17:03:14 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@781977592 wrapping com.mysql.cj.jdbc.ConnectionImpl@46882ef2] will not be managed by Spring
+188429 [DEBUG] 2019-12-19 17:03:14 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+188429 [DEBUG] 2019-12-19 17:03:14 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), 教师(String)
+188429 [DEBUG] 2019-12-19 17:03:14 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - <==      Total: 0
+188429 [DEBUG] 2019-12-19 17:03:14 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@205bed83]
+274307 [INFO ] 2019-12-19 17:04:39 [RMI TCP Connection(7)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+274320 [INFO ] 2019-12-19 17:04:39 [RMI TCP Connection(7)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+274320 [INFO ] 2019-12-19 17:04:39 [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+274336 [INFO ] 2019-12-19 17:04:39 [RMI TCP Connection(7)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+803  [INFO ] 2019-12-19 17:04:57 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 19940 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+803  [DEBUG] 2019-12-19 17:04:57 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+803  [INFO ] 2019-12-19 17:04:57 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+1756 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+1773 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+1774 [DEBUG] 2019-12-19 17:04:58 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+1789 [DEBUG] 2019-12-19 17:04:58 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2586 [INFO ] 2019-12-19 17:04:59 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2617 [INFO ] 2019-12-19 17:04:59 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2633 [INFO ] 2019-12-19 17:04:59 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2633 [INFO ] 2019-12-19 17:04:59 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2633 [INFO ] 2019-12-19 17:04:59 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+2789 [INFO ] 2019-12-19 17:04:59 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2789 [INFO ] 2019-12-19 17:04:59 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1939 ms
+3242 [DEBUG] 2019-12-19 17:05:00 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+3242 [DEBUG] 2019-12-19 17:05:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+3242 [DEBUG] 2019-12-19 17:05:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+3242 [DEBUG] 2019-12-19 17:05:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+3242 [DEBUG] 2019-12-19 17:05:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+3242 [DEBUG] 2019-12-19 17:05:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+3242 [DEBUG] 2019-12-19 17:05:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+3242 [DEBUG] 2019-12-19 17:05:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+3242 [DEBUG] 2019-12-19 17:05:00 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+3554 [DEBUG] 2019-12-19 17:05:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+3570 [DEBUG] 2019-12-19 17:05:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+3585 [DEBUG] 2019-12-19 17:05:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+3601 [DEBUG] 2019-12-19 17:05:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+3882 [INFO ] 2019-12-19 17:05:00 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4039 [DEBUG] 2019-12-19 17:05:01 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+4180 [INFO ] 2019-12-19 17:05:01 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+4227 [INFO ] 2019-12-19 17:05:01 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+4227 [INFO ] 2019-12-19 17:05:01 [main] com.example.demo.DemoApplication - Started DemoApplication in 4.055 seconds (JVM running for 5.38)
+39278 [INFO ] 2019-12-19 17:05:36 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+39278 [INFO ] 2019-12-19 17:05:36 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+39284 [INFO ] 2019-12-19 17:05:36 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+55550 [DEBUG] 2019-12-19 17:05:52 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+55557 [DEBUG] 2019-12-19 17:05:52 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13d5fad1] was not registered for synchronization because synchronization is not active
+55557 [INFO ] 2019-12-19 17:05:52 [http-nio-8888-exec-4] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+56490 [INFO ] 2019-12-19 17:05:53 [http-nio-8888-exec-4] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+56490 [DEBUG] 2019-12-19 17:05:53 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@22965591 wrapping com.mysql.cj.jdbc.ConnectionImpl@6767016d] will not be managed by Spring
+56490 [DEBUG] 2019-12-19 17:05:53 [http-nio-8888-exec-4] c.e.d.mapper.UserMapper.insertUsers - ==>  Preparing: insert into user(user_name,user_password,user_phone,user_access,user_email,user_workyear,user_status) values (?,?,?,?,?,?,?) 
+56521 [DEBUG] 2019-12-19 17:05:53 [http-nio-8888-exec-4] c.e.d.mapper.UserMapper.insertUsers - ==> Parameters: wdehaots@cn.ibm.com(String), password(String), 11111(String), 教师(String), wdehaots@cn.ibm.com(String), null, 1(Integer)
+56537 [DEBUG] 2019-12-19 17:05:53 [http-nio-8888-exec-4] c.e.d.mapper.UserMapper.insertUsers - <==    Updates: 1
+56537 [DEBUG] 2019-12-19 17:05:53 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@13d5fad1]
+66247 [DEBUG] 2019-12-19 17:06:03 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+66247 [DEBUG] 2019-12-19 17:06:03 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c467914] was not registered for synchronization because synchronization is not active
+66247 [DEBUG] 2019-12-19 17:06:03 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1872441940 wrapping com.mysql.cj.jdbc.ConnectionImpl@6767016d] will not be managed by Spring
+66247 [DEBUG] 2019-12-19 17:06:03 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+66247 [DEBUG] 2019-12-19 17:06:03 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), 教师(String)
+66278 [DEBUG] 2019-12-19 17:06:03 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - <==      Total: 0
+66278 [DEBUG] 2019-12-19 17:06:03 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@c467914]
+202443 [INFO ] 2019-12-19 17:08:19 [RMI TCP Connection(6)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+202447 [INFO ] 2019-12-19 17:08:19 [RMI TCP Connection(6)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+202447 [INFO ] 2019-12-19 17:08:19 [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+202463 [INFO ] 2019-12-19 17:08:19 [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+890  [INFO ] 2019-12-19 17:08:28 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 19732 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+890  [DEBUG] 2019-12-19 17:08:28 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+890  [INFO ] 2019-12-19 17:08:28 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2187 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2200 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+2202 [DEBUG] 2019-12-19 17:08:29 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+2217 [DEBUG] 2019-12-19 17:08:29 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+3233 [INFO ] 2019-12-19 17:08:30 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+3258 [INFO ] 2019-12-19 17:08:30 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+3273 [INFO ] 2019-12-19 17:08:30 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+3273 [INFO ] 2019-12-19 17:08:30 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+3273 [INFO ] 2019-12-19 17:08:30 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+3664 [INFO ] 2019-12-19 17:08:31 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3664 [INFO ] 2019-12-19 17:08:31 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2727 ms
+3883 [DEBUG] 2019-12-19 17:08:31 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+3883 [DEBUG] 2019-12-19 17:08:31 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+3883 [DEBUG] 2019-12-19 17:08:31 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+3883 [DEBUG] 2019-12-19 17:08:31 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+3883 [DEBUG] 2019-12-19 17:08:31 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+3883 [DEBUG] 2019-12-19 17:08:31 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+3883 [DEBUG] 2019-12-19 17:08:31 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+3883 [DEBUG] 2019-12-19 17:08:31 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+3883 [DEBUG] 2019-12-19 17:08:31 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+4039 [DEBUG] 2019-12-19 17:08:31 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+4054 [DEBUG] 2019-12-19 17:08:31 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+4054 [DEBUG] 2019-12-19 17:08:31 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+4195 [DEBUG] 2019-12-19 17:08:31 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+4508 [INFO ] 2019-12-19 17:08:32 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4693 [DEBUG] 2019-12-19 17:08:32 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+4865 [INFO ] 2019-12-19 17:08:32 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+4896 [INFO ] 2019-12-19 17:08:32 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+4912 [INFO ] 2019-12-19 17:08:32 [main] com.example.demo.DemoApplication - Started DemoApplication in 4.725 seconds (JVM running for 6.699)
+5037 [INFO ] 2019-12-19 17:08:32 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+5037 [INFO ] 2019-12-19 17:08:32 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+5037 [INFO ] 2019-12-19 17:08:32 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+21412 [DEBUG] 2019-12-19 17:08:49 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+21416 [DEBUG] 2019-12-19 17:08:49 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53cbaa56] was not registered for synchronization because synchronization is not active
+21416 [INFO ] 2019-12-19 17:08:49 [http-nio-8888-exec-8] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22432 [INFO ] 2019-12-19 17:08:50 [http-nio-8888-exec-8] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22439 [DEBUG] 2019-12-19 17:08:50 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1655969216 wrapping com.mysql.cj.jdbc.ConnectionImpl@428c28bd] will not be managed by Spring
+22439 [DEBUG] 2019-12-19 17:08:50 [http-nio-8888-exec-8] c.e.d.mapper.UserMapper.insertUsers - ==>  Preparing: insert into user(user_name,user_password,user_phone,user_access,user_email,user_workyear,user_status) values (?,?,?,?,?,?,?) 
+22470 [DEBUG] 2019-12-19 17:08:50 [http-nio-8888-exec-8] c.e.d.mapper.UserMapper.insertUsers - ==> Parameters: wdehaots@cn.ibm.com(String), password(String), 1110(String), 教师(String), wdehaots@cn.ibm.com(String), 0(Integer), 1(Integer)
+22486 [DEBUG] 2019-12-19 17:08:50 [http-nio-8888-exec-8] c.e.d.mapper.UserMapper.insertUsers - <==    Updates: 1
+22486 [DEBUG] 2019-12-19 17:08:50 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53cbaa56]
+43448 [DEBUG] 2019-12-19 17:09:11 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+43448 [DEBUG] 2019-12-19 17:09:11 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5199de42] was not registered for synchronization because synchronization is not active
+43448 [DEBUG] 2019-12-19 17:09:11 [http-nio-8888-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1895447887 wrapping com.mysql.cj.jdbc.ConnectionImpl@428c28bd] will not be managed by Spring
+43448 [DEBUG] 2019-12-19 17:09:11 [http-nio-8888-exec-5] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+43448 [DEBUG] 2019-12-19 17:09:11 [http-nio-8888-exec-5] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), 教师(String)
+43479 [DEBUG] 2019-12-19 17:09:11 [http-nio-8888-exec-5] c.e.demo.mapper.UserMapper.login - <==      Total: 0
+43479 [DEBUG] 2019-12-19 17:09:11 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5199de42]
+99127 [DEBUG] 2019-12-19 17:10:06 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+99127 [DEBUG] 2019-12-19 17:10:06 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f3ffff1] was not registered for synchronization because synchronization is not active
+99128 [DEBUG] 2019-12-19 17:10:06 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@844627721 wrapping com.mysql.cj.jdbc.ConnectionImpl@428c28bd] will not be managed by Spring
+99128 [DEBUG] 2019-12-19 17:10:06 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+99128 [DEBUG] 2019-12-19 17:10:06 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), 教师(String)
+99130 [DEBUG] 2019-12-19 17:10:06 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - <==      Total: 0
+99130 [DEBUG] 2019-12-19 17:10:06 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f3ffff1]
+101633 [INFO ] 2019-12-19 17:10:09 [RMI TCP Connection(3)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+101636 [INFO ] 2019-12-19 17:10:09 [RMI TCP Connection(3)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+101638 [INFO ] 2019-12-19 17:10:09 [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+101657 [INFO ] 2019-12-19 17:10:09 [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+955  [INFO ] 2019-12-19 17:10:16 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 19112 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+959  [DEBUG] 2019-12-19 17:10:16 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+959  [INFO ] 2019-12-19 17:10:16 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+1986 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+1986 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+1995 [DEBUG] 2019-12-19 17:10:17 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2007 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+2007 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+2007 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+2007 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+2010 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+2011 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+2012 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+2012 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+2012 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+2012 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+2012 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+2013 [DEBUG] 2019-12-19 17:10:17 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2928 [INFO ] 2019-12-19 17:10:18 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2949 [INFO ] 2019-12-19 17:10:18 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2968 [INFO ] 2019-12-19 17:10:18 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2969 [INFO ] 2019-12-19 17:10:18 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2980 [INFO ] 2019-12-19 17:10:18 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+3113 [INFO ] 2019-12-19 17:10:18 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3113 [INFO ] 2019-12-19 17:10:18 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2092 ms
+3350 [DEBUG] 2019-12-19 17:10:19 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+3355 [DEBUG] 2019-12-19 17:10:19 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+3355 [DEBUG] 2019-12-19 17:10:19 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+3356 [DEBUG] 2019-12-19 17:10:19 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+3356 [DEBUG] 2019-12-19 17:10:19 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+3356 [DEBUG] 2019-12-19 17:10:19 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+3357 [DEBUG] 2019-12-19 17:10:19 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+3358 [DEBUG] 2019-12-19 17:10:19 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+3361 [DEBUG] 2019-12-19 17:10:19 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+3626 [DEBUG] 2019-12-19 17:10:19 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+3645 [DEBUG] 2019-12-19 17:10:19 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+3660 [DEBUG] 2019-12-19 17:10:19 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+3679 [DEBUG] 2019-12-19 17:10:19 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+3986 [INFO ] 2019-12-19 17:10:19 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4170 [DEBUG] 2019-12-19 17:10:19 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+4305 [INFO ] 2019-12-19 17:10:20 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+4343 [INFO ] 2019-12-19 17:10:20 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+4347 [INFO ] 2019-12-19 17:10:20 [main] com.example.demo.DemoApplication - Started DemoApplication in 4.135 seconds (JVM running for 5.74)
+4479 [INFO ] 2019-12-19 17:10:20 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+4480 [INFO ] 2019-12-19 17:10:20 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+4486 [INFO ] 2019-12-19 17:10:20 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+4570 [ERROR] 2019-12-19 17:10:20 [http-nio-8888-exec-1] o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.example.demo.controller.UserController.imgvrifyControllerDefaultKaptcha(UserController.java:239)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.valves.RemoteIpValve.invoke(RemoteIpValve.java:679)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+36974 [DEBUG] 2019-12-19 17:10:52 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+36980 [DEBUG] 2019-12-19 17:10:52 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25a9ebe5] was not registered for synchronization because synchronization is not active
+36989 [INFO ] 2019-12-19 17:10:52 [http-nio-8888-exec-9] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+37926 [INFO ] 2019-12-19 17:10:53 [http-nio-8888-exec-9] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+37930 [DEBUG] 2019-12-19 17:10:53 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1199467244 wrapping com.mysql.cj.jdbc.ConnectionImpl@46a14db8] will not be managed by Spring
+37936 [DEBUG] 2019-12-19 17:10:53 [http-nio-8888-exec-9] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+37971 [DEBUG] 2019-12-19 17:10:53 [http-nio-8888-exec-9] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), 教师(String)
+38005 [DEBUG] 2019-12-19 17:10:53 [http-nio-8888-exec-9] c.e.demo.mapper.UserMapper.login - <==      Total: 0
+38006 [DEBUG] 2019-12-19 17:10:53 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25a9ebe5]
+159974 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+159974 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c0fc077] was not registered for synchronization because synchronization is not active
+159974 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@688735122 wrapping com.mysql.cj.jdbc.ConnectionImpl@46a14db8] will not be managed by Spring
+159974 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+159974 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), 教师(String)
+159974 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+159974 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c0fc077]
+160161 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+160161 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49d29bd4] was not registered for synchronization because synchronization is not active
+160161 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1521826941 wrapping com.mysql.cj.jdbc.ConnectionImpl@46a14db8] will not be managed by Spring
+160161 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-8] c.e.d.m.T.selectTeacherMsg - ==>  Preparing: select * from teacher where teacher_name = ? and teacher_status = 0 
+160161 [DEBUG] 2019-12-19 17:12:55 [http-nio-8888-exec-8] c.e.d.m.T.selectTeacherMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+160192 [DEBUG] 2019-12-19 17:12:56 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@49d29bd4]
+175760 [DEBUG] 2019-12-19 17:13:11 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+175760 [DEBUG] 2019-12-19 17:13:11 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c2c347b] was not registered for synchronization because synchronization is not active
+175761 [DEBUG] 2019-12-19 17:13:11 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2100374413 wrapping com.mysql.cj.jdbc.ConnectionImpl@46a14db8] will not be managed by Spring
+175761 [DEBUG] 2019-12-19 17:13:11 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+175762 [DEBUG] 2019-12-19 17:13:11 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+175764 [DEBUG] 2019-12-19 17:13:11 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+175765 [DEBUG] 2019-12-19 17:13:11 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6c2c347b]
+188737 [DEBUG] 2019-12-19 17:13:24 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+188737 [DEBUG] 2019-12-19 17:13:24 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a924027] was not registered for synchronization because synchronization is not active
+188738 [DEBUG] 2019-12-19 17:13:24 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1104947740 wrapping com.mysql.cj.jdbc.ConnectionImpl@46a14db8] will not be managed by Spring
+188738 [DEBUG] 2019-12-19 17:13:24 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.toUpdate - ==>  Preparing: select * from user where user_id = ? and user_status=0 
+188739 [DEBUG] 2019-12-19 17:13:24 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.toUpdate - ==> Parameters: 5(Integer)
+188740 [DEBUG] 2019-12-19 17:13:24 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.toUpdate - <==      Total: 1
+188741 [DEBUG] 2019-12-19 17:13:24 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1a924027]
+8118143 [WARN ] 2019-12-19 19:25:33 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=28m38s76ms43µs600ns).
+18946909 [WARN ] 2019-12-19 22:26:02 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h28s767ms394µs400ns).

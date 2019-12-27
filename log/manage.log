@@ -1,0 +1,1033 @@
+56801657 [WARN ] 2019-12-27 09:11:50 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15h39m27s523ms583µs200ns).
+59286923 [DEBUG] 2019-12-27 09:53:15 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+59286923 [DEBUG] 2019-12-27 09:53:15 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d673aad] was not registered for synchronization because synchronization is not active
+59286939 [DEBUG] 2019-12-27 09:53:15 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1411799410 wrapping com.mysql.cj.jdbc.ConnectionImpl@18acfbb1] will not be managed by Spring
+59286939 [DEBUG] 2019-12-27 09:53:15 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+59286949 [DEBUG] 2019-12-27 09:53:15 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==> Parameters: xiaolli(String), student(String)
+59286996 [DEBUG] 2019-12-27 09:53:15 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+59286996 [DEBUG] 2019-12-27 09:53:15 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2d673aad]
+59288454 [DEBUG] 2019-12-27 09:53:17 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+59288454 [DEBUG] 2019-12-27 09:53:17 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e3cc0a4] was not registered for synchronization because synchronization is not active
+59288458 [DEBUG] 2019-12-27 09:53:17 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1538447266 wrapping com.mysql.cj.jdbc.ConnectionImpl@18acfbb1] will not be managed by Spring
+59288458 [DEBUG] 2019-12-27 09:53:17 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+59288458 [DEBUG] 2019-12-27 09:53:17 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+59288473 [DEBUG] 2019-12-27 09:53:17 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - <==      Total: 2
+59288473 [DEBUG] 2019-12-27 09:53:17 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e3cc0a4]
+60678855 [DEBUG] 2019-12-27 10:16:27 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+60678878 [DEBUG] 2019-12-27 10:16:27 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2348d883] was not registered for synchronization because synchronization is not active
+60678880 [DEBUG] 2019-12-27 10:16:27 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1141078054 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+60678880 [DEBUG] 2019-12-27 10:16:27 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+60678896 [DEBUG] 2019-12-27 10:16:27 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+60678940 [DEBUG] 2019-12-27 10:16:27 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - <==      Total: 2
+60678940 [DEBUG] 2019-12-27 10:16:27 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2348d883]
+60875575 [DEBUG] 2019-12-27 10:19:44 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+60875575 [DEBUG] 2019-12-27 10:19:44 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5bac5fbf] was not registered for synchronization because synchronization is not active
+60875581 [DEBUG] 2019-12-27 10:19:44 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@377962689 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+60875581 [DEBUG] 2019-12-27 10:19:44 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+60875581 [DEBUG] 2019-12-27 10:19:44 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+60875596 [DEBUG] 2019-12-27 10:19:44 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - <==      Total: 2
+60875596 [DEBUG] 2019-12-27 10:19:44 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5bac5fbf]
+61029118 [DEBUG] 2019-12-27 10:22:17 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61029118 [DEBUG] 2019-12-27 10:22:17 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38867195] was not registered for synchronization because synchronization is not active
+61029127 [DEBUG] 2019-12-27 10:22:18 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1018819165 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61029128 [DEBUG] 2019-12-27 10:22:18 [http-nio-8888-exec-9] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+61029128 [DEBUG] 2019-12-27 10:22:18 [http-nio-8888-exec-9] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+61029128 [DEBUG] 2019-12-27 10:22:18 [http-nio-8888-exec-9] c.e.d.m.C.showCurrentResults - <==      Total: 2
+61029128 [DEBUG] 2019-12-27 10:22:18 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@38867195]
+61103840 [DEBUG] 2019-12-27 10:23:32 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61103840 [DEBUG] 2019-12-27 10:23:32 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@288c4a5c] was not registered for synchronization because synchronization is not active
+61103845 [DEBUG] 2019-12-27 10:23:32 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1747510990 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61103846 [DEBUG] 2019-12-27 10:23:32 [http-nio-8888-exec-7] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+61103846 [DEBUG] 2019-12-27 10:23:32 [http-nio-8888-exec-7] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+61103846 [DEBUG] 2019-12-27 10:23:32 [http-nio-8888-exec-7] c.e.d.m.C.showCurrentResults - <==      Total: 2
+61103846 [DEBUG] 2019-12-27 10:23:32 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@288c4a5c]
+61119076 [DEBUG] 2019-12-27 10:23:47 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61119076 [DEBUG] 2019-12-27 10:23:47 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f8bf89] was not registered for synchronization because synchronization is not active
+61119092 [DEBUG] 2019-12-27 10:23:47 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@592694868 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61119094 [DEBUG] 2019-12-27 10:23:47 [http-nio-8888-exec-2] c.e.d.m.U.crossUserIdFindStudentMsg - ==>  Preparing: select * from student where student_name= ? and student_status=0 
+61119099 [DEBUG] 2019-12-27 10:23:47 [http-nio-8888-exec-2] c.e.d.m.U.crossUserIdFindStudentMsg - ==> Parameters: xiaolli(String)
+61119261 [DEBUG] 2019-12-27 10:23:48 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@12f8bf89]
+61138177 [DEBUG] 2019-12-27 10:24:07 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61138177 [DEBUG] 2019-12-27 10:24:07 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72dfd285] was not registered for synchronization because synchronization is not active
+61138177 [DEBUG] 2019-12-27 10:24:07 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@395702799 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61138177 [DEBUG] 2019-12-27 10:24:07 [http-nio-8888-exec-7] c.e.d.m.U.crossUserIdFindStudentMsg - ==>  Preparing: select * from student where student_name= ? and student_status=0 
+61138188 [DEBUG] 2019-12-27 10:24:07 [http-nio-8888-exec-7] c.e.d.m.U.crossUserIdFindStudentMsg - ==> Parameters: xiaolli(String)
+61138190 [DEBUG] 2019-12-27 10:24:07 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72dfd285]
+61140300 [DEBUG] 2019-12-27 10:24:09 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61140300 [DEBUG] 2019-12-27 10:24:09 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@539abc73] was not registered for synchronization because synchronization is not active
+61140300 [DEBUG] 2019-12-27 10:24:09 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1020600789 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61140300 [DEBUG] 2019-12-27 10:24:09 [http-nio-8888-exec-2] c.e.d.m.U.crossUserIdFindStudentMsg - ==>  Preparing: select * from student where student_name= ? and student_status=0 
+61140300 [DEBUG] 2019-12-27 10:24:09 [http-nio-8888-exec-2] c.e.d.m.U.crossUserIdFindStudentMsg - ==> Parameters: xiaolli(String)
+61140300 [DEBUG] 2019-12-27 10:24:09 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@539abc73]
+61144577 [DEBUG] 2019-12-27 10:24:13 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61144577 [DEBUG] 2019-12-27 10:24:13 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44a106bf] was not registered for synchronization because synchronization is not active
+61144577 [DEBUG] 2019-12-27 10:24:13 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1844947582 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61144583 [DEBUG] 2019-12-27 10:24:13 [http-nio-8888-exec-7] c.e.d.m.U.crossUserIdFindStudentMsg - ==>  Preparing: select * from student where student_name= ? and student_status=0 
+61144583 [DEBUG] 2019-12-27 10:24:13 [http-nio-8888-exec-7] c.e.d.m.U.crossUserIdFindStudentMsg - ==> Parameters: xiaolli(String)
+61144585 [DEBUG] 2019-12-27 10:24:13 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44a106bf]
+61145310 [DEBUG] 2019-12-27 10:24:14 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61145310 [DEBUG] 2019-12-27 10:24:14 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3235272c] was not registered for synchronization because synchronization is not active
+61145310 [DEBUG] 2019-12-27 10:24:14 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1104256404 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61145310 [DEBUG] 2019-12-27 10:24:14 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+61145310 [DEBUG] 2019-12-27 10:24:14 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+61145332 [DEBUG] 2019-12-27 10:24:14 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - <==      Total: 2
+61145332 [DEBUG] 2019-12-27 10:24:14 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3235272c]
+61222192 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61222207 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1325007c] was not registered for synchronization because synchronization is not active
+61222207 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1795168649 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61222207 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-3] c.e.d.m.C.showCompleteResults - ==>  Preparing: select * from training where trainer_name =? and training_state = '100%' 
+61222207 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-3] c.e.d.m.C.showCompleteResults - ==> Parameters: xiaolli(String)
+61222212 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-3] c.e.d.m.C.showCompleteResults - <==      Total: 1
+61222213 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1325007c]
+61222840 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61222840 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6da4e63f] was not registered for synchronization because synchronization is not active
+61222840 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1362512498 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61222840 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-7] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+61222847 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-7] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+61222847 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-7] c.e.d.m.C.showCurrentResults - <==      Total: 2
+61222847 [DEBUG] 2019-12-27 10:25:31 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6da4e63f]
+61223611 [DEBUG] 2019-12-27 10:25:32 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61223611 [DEBUG] 2019-12-27 10:25:32 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@452d759] was not registered for synchronization because synchronization is not active
+61223611 [DEBUG] 2019-12-27 10:25:32 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1712381024 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61223611 [DEBUG] 2019-12-27 10:25:32 [http-nio-8888-exec-8] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+61223611 [DEBUG] 2019-12-27 10:25:32 [http-nio-8888-exec-8] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+61223626 [DEBUG] 2019-12-27 10:25:32 [http-nio-8888-exec-8] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+61223626 [DEBUG] 2019-12-27 10:25:32 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@452d759]
+61227275 [DEBUG] 2019-12-27 10:25:36 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61227275 [DEBUG] 2019-12-27 10:25:36 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19ce353d] was not registered for synchronization because synchronization is not active
+61227275 [DEBUG] 2019-12-27 10:25:36 [http-nio-8888-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@369952860 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61227275 [DEBUG] 2019-12-27 10:25:36 [http-nio-8888-exec-5] c.e.d.m.C.showCompleteResults - ==>  Preparing: select * from training where trainer_name =? and training_state = '100%' 
+61227275 [DEBUG] 2019-12-27 10:25:36 [http-nio-8888-exec-5] c.e.d.m.C.showCompleteResults - ==> Parameters: xiaolli(String)
+61227288 [DEBUG] 2019-12-27 10:25:36 [http-nio-8888-exec-5] c.e.d.m.C.showCompleteResults - <==      Total: 1
+61227288 [DEBUG] 2019-12-27 10:25:36 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@19ce353d]
+61360040 [DEBUG] 2019-12-27 10:27:48 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61360040 [DEBUG] 2019-12-27 10:27:48 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f5c4e2e] was not registered for synchronization because synchronization is not active
+61360047 [DEBUG] 2019-12-27 10:27:48 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@592522040 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61360048 [DEBUG] 2019-12-27 10:27:48 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+61360049 [DEBUG] 2019-12-27 10:27:48 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+61360052 [DEBUG] 2019-12-27 10:27:48 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - <==      Total: 2
+61360052 [DEBUG] 2019-12-27 10:27:48 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3f5c4e2e]
+61363966 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61363966 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3818dee] was not registered for synchronization because synchronization is not active
+61363972 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@369208709 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61363972 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] c.e.d.m.C.showChooseCourse - ==>  Preparing: select user_id,user_workyear , user_phone ,user_name , start_date, end_date from user join mentorcalendar on user.user_name = mentorcalendar.mentor_name where user_name = (select user_name from mentorskill where tec_name = ?)and ? between start_date and end_date 
+61363973 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] c.e.d.m.C.showChooseCourse - ==> Parameters: math(String), 2019-12-13 08:00:00.0(Timestamp)
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] c.e.d.m.C.showChooseCourse - <==      Total: 1
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3818dee]
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32bd1db6] was not registered for synchronization because synchronization is not active
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@27904152 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] c.e.d.mapper.CourseMapper.serchFee - ==>  Preparing: select money from payment where user_name = ? and tec_name = ? 
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] c.e.d.mapper.CourseMapper.serchFee - ==> Parameters: wdehaots@cn.ibm.com(String), math(String)
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] c.e.d.mapper.CourseMapper.serchFee - <==      Total: 1
+61364004 [DEBUG] 2019-12-27 10:27:52 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@32bd1db6]
+61373574 [DEBUG] 2019-12-27 10:28:02 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61373574 [DEBUG] 2019-12-27 10:28:02 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@590b31da] was not registered for synchronization because synchronization is not active
+61373582 [DEBUG] 2019-12-27 10:28:02 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1323138142 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61373582 [DEBUG] 2019-12-27 10:28:02 [http-nio-8888-exec-1] c.e.d.m.C.showCompleteResults - ==>  Preparing: select * from training where trainer_name =? and training_state = '100%' 
+61373584 [DEBUG] 2019-12-27 10:28:02 [http-nio-8888-exec-1] c.e.d.m.C.showCompleteResults - ==> Parameters: xiaolli(String)
+61373584 [DEBUG] 2019-12-27 10:28:02 [http-nio-8888-exec-1] c.e.d.m.C.showCompleteResults - <==      Total: 1
+61373584 [DEBUG] 2019-12-27 10:28:02 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@590b31da]
+61374314 [DEBUG] 2019-12-27 10:28:03 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61374314 [DEBUG] 2019-12-27 10:28:03 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@306034ec] was not registered for synchronization because synchronization is not active
+61374314 [DEBUG] 2019-12-27 10:28:03 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1829773808 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61374314 [DEBUG] 2019-12-27 10:28:03 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+61374314 [DEBUG] 2019-12-27 10:28:03 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+61374314 [DEBUG] 2019-12-27 10:28:03 [http-nio-8888-exec-2] c.e.d.m.C.showCurrentResults - <==      Total: 2
+61374314 [DEBUG] 2019-12-27 10:28:03 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@306034ec]
+61375201 [DEBUG] 2019-12-27 10:28:04 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61375201 [DEBUG] 2019-12-27 10:28:04 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4716ce11] was not registered for synchronization because synchronization is not active
+61375201 [DEBUG] 2019-12-27 10:28:04 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@496774120 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61375201 [DEBUG] 2019-12-27 10:28:04 [http-nio-8888-exec-6] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+61375217 [DEBUG] 2019-12-27 10:28:04 [http-nio-8888-exec-6] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+61375217 [DEBUG] 2019-12-27 10:28:04 [http-nio-8888-exec-6] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+61375217 [DEBUG] 2019-12-27 10:28:04 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4716ce11]
+61384606 [DEBUG] 2019-12-27 10:28:13 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61384606 [DEBUG] 2019-12-27 10:28:13 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@378aa60a] was not registered for synchronization because synchronization is not active
+61384610 [DEBUG] 2019-12-27 10:28:13 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@628115389 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61384611 [DEBUG] 2019-12-27 10:28:13 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+61384611 [DEBUG] 2019-12-27 10:28:13 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==> Parameters: xiaolli(String), student(String)
+61384613 [DEBUG] 2019-12-27 10:28:13 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+61384613 [DEBUG] 2019-12-27 10:28:13 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@378aa60a]
+61469022 [DEBUG] 2019-12-27 10:29:37 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61469024 [DEBUG] 2019-12-27 10:29:37 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4010f31e] was not registered for synchronization because synchronization is not active
+61469024 [DEBUG] 2019-12-27 10:29:37 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1009734559 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61469024 [DEBUG] 2019-12-27 10:29:37 [http-nio-8888-exec-6] c.e.d.m.C.showCompleteResults - ==>  Preparing: select * from training where trainer_name =? and training_state = '100%' 
+61469024 [DEBUG] 2019-12-27 10:29:37 [http-nio-8888-exec-6] c.e.d.m.C.showCompleteResults - ==> Parameters: xiaolli(String)
+61469028 [DEBUG] 2019-12-27 10:29:37 [http-nio-8888-exec-6] c.e.d.m.C.showCompleteResults - <==      Total: 1
+61469029 [DEBUG] 2019-12-27 10:29:37 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4010f31e]
+61469701 [DEBUG] 2019-12-27 10:29:38 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61469701 [DEBUG] 2019-12-27 10:29:38 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64f83bca] was not registered for synchronization because synchronization is not active
+61469701 [DEBUG] 2019-12-27 10:29:38 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1133692231 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61469701 [DEBUG] 2019-12-27 10:29:38 [http-nio-8888-exec-8] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+61469701 [DEBUG] 2019-12-27 10:29:38 [http-nio-8888-exec-8] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+61469716 [DEBUG] 2019-12-27 10:29:38 [http-nio-8888-exec-8] c.e.d.m.C.showCurrentResults - <==      Total: 2
+61469716 [DEBUG] 2019-12-27 10:29:38 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@64f83bca]
+61470782 [DEBUG] 2019-12-27 10:29:39 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61470782 [DEBUG] 2019-12-27 10:29:39 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43f37d09] was not registered for synchronization because synchronization is not active
+61470782 [DEBUG] 2019-12-27 10:29:39 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@764584278 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61470782 [DEBUG] 2019-12-27 10:29:39 [http-nio-8888-exec-3] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+61470782 [DEBUG] 2019-12-27 10:29:39 [http-nio-8888-exec-3] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+61470788 [DEBUG] 2019-12-27 10:29:39 [http-nio-8888-exec-3] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+61470788 [DEBUG] 2019-12-27 10:29:39 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43f37d09]
+61472032 [DEBUG] 2019-12-27 10:29:40 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61472032 [DEBUG] 2019-12-27 10:29:40 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1778b3ab] was not registered for synchronization because synchronization is not active
+61472032 [DEBUG] 2019-12-27 10:29:40 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1345796697 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61472034 [DEBUG] 2019-12-27 10:29:40 [http-nio-8888-exec-6] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+61472034 [DEBUG] 2019-12-27 10:29:40 [http-nio-8888-exec-6] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+61472034 [DEBUG] 2019-12-27 10:29:40 [http-nio-8888-exec-6] c.e.d.m.C.showCurrentResults - <==      Total: 2
+61472034 [DEBUG] 2019-12-27 10:29:40 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1778b3ab]
+61487284 [DEBUG] 2019-12-27 10:29:56 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61487284 [DEBUG] 2019-12-27 10:29:56 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1850a4b2] was not registered for synchronization because synchronization is not active
+61487286 [DEBUG] 2019-12-27 10:29:56 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1028909593 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61487286 [DEBUG] 2019-12-27 10:29:56 [http-nio-8888-exec-8] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+61487286 [DEBUG] 2019-12-27 10:29:56 [http-nio-8888-exec-8] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+61487286 [DEBUG] 2019-12-27 10:29:56 [http-nio-8888-exec-8] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+61487286 [DEBUG] 2019-12-27 10:29:56 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1850a4b2]
+61491400 [DEBUG] 2019-12-27 10:30:00 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+61491400 [DEBUG] 2019-12-27 10:30:00 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52574a46] was not registered for synchronization because synchronization is not active
+61491418 [DEBUG] 2019-12-27 10:30:00 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1777093099 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c11b16b] will not be managed by Spring
+61491418 [DEBUG] 2019-12-27 10:30:00 [http-nio-8888-exec-6] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+61491418 [DEBUG] 2019-12-27 10:30:00 [http-nio-8888-exec-6] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+61491420 [DEBUG] 2019-12-27 10:30:00 [http-nio-8888-exec-6] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+61491420 [DEBUG] 2019-12-27 10:30:00 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@52574a46]
+63321482 [DEBUG] 2019-12-27 11:00:30 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+63321498 [DEBUG] 2019-12-27 11:00:30 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3310fa3e] was not registered for synchronization because synchronization is not active
+63321513 [DEBUG] 2019-12-27 11:00:30 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1744762952 wrapping com.mysql.cj.jdbc.ConnectionImpl@2e5600eb] will not be managed by Spring
+63321513 [DEBUG] 2019-12-27 11:00:30 [http-nio-8888-exec-4] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+63321520 [DEBUG] 2019-12-27 11:00:30 [http-nio-8888-exec-4] c.e.demo.mapper.UserMapper.login - ==> Parameters: xiaolli(String), student(String)
+63321551 [DEBUG] 2019-12-27 11:00:30 [http-nio-8888-exec-4] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+63321566 [DEBUG] 2019-12-27 11:00:30 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3310fa3e]
+63324078 [DEBUG] 2019-12-27 11:00:32 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+63324078 [DEBUG] 2019-12-27 11:00:32 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bdb0404] was not registered for synchronization because synchronization is not active
+63324094 [DEBUG] 2019-12-27 11:00:32 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@993334309 wrapping com.mysql.cj.jdbc.ConnectionImpl@2e5600eb] will not be managed by Spring
+63324096 [DEBUG] 2019-12-27 11:00:32 [http-nio-8888-exec-10] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+63324097 [DEBUG] 2019-12-27 11:00:32 [http-nio-8888-exec-10] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+63324104 [DEBUG] 2019-12-27 11:00:32 [http-nio-8888-exec-10] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+63324108 [DEBUG] 2019-12-27 11:00:32 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bdb0404]
+63527854 [DEBUG] 2019-12-27 11:03:56 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+63527854 [DEBUG] 2019-12-27 11:03:56 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5dece7df] was not registered for synchronization because synchronization is not active
+63527864 [DEBUG] 2019-12-27 11:03:56 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1292069230 wrapping com.mysql.cj.jdbc.ConnectionImpl@2e5600eb] will not be managed by Spring
+63527865 [DEBUG] 2019-12-27 11:03:56 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+63527866 [DEBUG] 2019-12-27 11:03:56 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+63527866 [DEBUG] 2019-12-27 11:03:56 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+63527866 [DEBUG] 2019-12-27 11:03:56 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5dece7df]
+63531940 [DEBUG] 2019-12-27 11:04:00 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+63531940 [DEBUG] 2019-12-27 11:04:00 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fb02e33] was not registered for synchronization because synchronization is not active
+63531954 [DEBUG] 2019-12-27 11:04:00 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@159823224 wrapping com.mysql.cj.jdbc.ConnectionImpl@2e5600eb] will not be managed by Spring
+63531955 [DEBUG] 2019-12-27 11:04:00 [http-nio-8888-exec-1] c.e.demo.mapper.UserMapper.toUpdate - ==>  Preparing: select * from user where user_id = ? and user_status=0 
+63531956 [DEBUG] 2019-12-27 11:04:00 [http-nio-8888-exec-1] c.e.demo.mapper.UserMapper.toUpdate - ==> Parameters: 6(Integer)
+63531956 [DEBUG] 2019-12-27 11:04:00 [http-nio-8888-exec-1] c.e.demo.mapper.UserMapper.toUpdate - <==      Total: 1
+63531971 [DEBUG] 2019-12-27 11:04:00 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7fb02e33]
+70700906 [WARN ] 2019-12-27 13:03:29 [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m53s173ms570µs700ns).
+70771019 [DEBUG] 2019-12-27 13:04:39 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+70771026 [DEBUG] 2019-12-27 13:04:39 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11da3328] was not registered for synchronization because synchronization is not active
+70771043 [DEBUG] 2019-12-27 13:04:39 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@539796139 wrapping com.mysql.cj.jdbc.ConnectionImpl@4cdf18ff] will not be managed by Spring
+70771048 [DEBUG] 2019-12-27 13:04:39 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.toUpdate - ==>  Preparing: select * from user where user_id = ? and user_status=0 
+70771061 [DEBUG] 2019-12-27 13:04:39 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.toUpdate - ==> Parameters: 6(Integer)
+70771095 [DEBUG] 2019-12-27 13:04:39 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.toUpdate - <==      Total: 1
+70771097 [DEBUG] 2019-12-27 13:04:39 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@11da3328]
+70796961 [DEBUG] 2019-12-27 13:05:05 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+70796961 [DEBUG] 2019-12-27 13:05:05 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3eab7941] was not registered for synchronization because synchronization is not active
+70796961 [DEBUG] 2019-12-27 13:05:05 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@470437807 wrapping com.mysql.cj.jdbc.ConnectionImpl@4cdf18ff] will not be managed by Spring
+70796961 [DEBUG] 2019-12-27 13:05:05 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+70796961 [DEBUG] 2019-12-27 13:05:05 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==> Parameters: xiaolli(String), student(String)
+70796976 [DEBUG] 2019-12-27 13:05:05 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+70796976 [DEBUG] 2019-12-27 13:05:05 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3eab7941]
+70799079 [DEBUG] 2019-12-27 13:05:07 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+70799079 [DEBUG] 2019-12-27 13:05:07 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78f0abe3] was not registered for synchronization because synchronization is not active
+70799079 [DEBUG] 2019-12-27 13:05:07 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1723841870 wrapping com.mysql.cj.jdbc.ConnectionImpl@4cdf18ff] will not be managed by Spring
+70799079 [DEBUG] 2019-12-27 13:05:07 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+70799079 [DEBUG] 2019-12-27 13:05:07 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+70799083 [DEBUG] 2019-12-27 13:05:07 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+70799085 [DEBUG] 2019-12-27 13:05:07 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@78f0abe3]
+70800216 [DEBUG] 2019-12-27 13:05:09 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+70800216 [DEBUG] 2019-12-27 13:05:09 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33c252ee] was not registered for synchronization because synchronization is not active
+70800231 [DEBUG] 2019-12-27 13:05:09 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@805092259 wrapping com.mysql.cj.jdbc.ConnectionImpl@4cdf18ff] will not be managed by Spring
+70800231 [DEBUG] 2019-12-27 13:05:09 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.toUpdate - ==>  Preparing: select * from user where user_id = ? and user_status=0 
+70800231 [DEBUG] 2019-12-27 13:05:09 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.toUpdate - ==> Parameters: 6(Integer)
+70800253 [DEBUG] 2019-12-27 13:05:09 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.toUpdate - <==      Total: 1
+70800269 [DEBUG] 2019-12-27 13:05:09 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33c252ee]
+73964067 [DEBUG] 2019-12-27 13:57:52 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+73964083 [DEBUG] 2019-12-27 13:57:52 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@193e2e5c] was not registered for synchronization because synchronization is not active
+73964083 [DEBUG] 2019-12-27 13:57:52 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1722935355 wrapping com.mysql.cj.jdbc.ConnectionImpl@1e2e5c7f] will not be managed by Spring
+73964083 [DEBUG] 2019-12-27 13:57:52 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+73964083 [DEBUG] 2019-12-27 13:57:52 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - ==> Parameters: admin(String), admin(String)
+73964099 [DEBUG] 2019-12-27 13:57:52 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+73964099 [DEBUG] 2019-12-27 13:57:52 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@193e2e5c]
+74782880 [DEBUG] 2019-12-27 14:11:31 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+74782880 [DEBUG] 2019-12-27 14:11:31 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20ec5fd7] was not registered for synchronization because synchronization is not active
+74782880 [DEBUG] 2019-12-27 14:11:31 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1601340245 wrapping com.mysql.cj.jdbc.ConnectionImpl@10751298] will not be managed by Spring
+74782880 [DEBUG] 2019-12-27 14:11:31 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+74782880 [DEBUG] 2019-12-27 14:11:31 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - ==> Parameters: admin(String), admin(String)
+74782895 [DEBUG] 2019-12-27 14:11:31 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+74782895 [DEBUG] 2019-12-27 14:11:31 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@20ec5fd7]
+74918245 [INFO ] 2019-12-27 14:13:47 [RMI TCP Connection(258)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+74918415 [INFO ] 2019-12-27 14:13:47 [RMI TCP Connection(258)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+74918431 [INFO ] 2019-12-27 14:13:47 [RMI TCP Connection(258)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+74918477 [INFO ] 2019-12-27 14:13:47 [RMI TCP Connection(258)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+918  [INFO ] 2019-12-27 14:13:57 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 26464 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+918  [DEBUG] 2019-12-27 14:13:57 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+918  [INFO ] 2019-12-27 14:13:57 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2437 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+2446 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+2449 [DEBUG] 2019-12-27 14:13:59 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+2460 [DEBUG] 2019-12-27 14:13:59 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+3193 [INFO ] 2019-12-27 14:13:59 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+3224 [INFO ] 2019-12-27 14:13:59 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+3224 [INFO ] 2019-12-27 14:13:59 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+3224 [INFO ] 2019-12-27 14:13:59 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+3240 [INFO ] 2019-12-27 14:13:59 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+3578 [INFO ] 2019-12-27 14:14:00 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+3578 [INFO ] 2019-12-27 14:14:00 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2607 ms
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Pay matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchCurrentResult matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchTeacher matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchTeacherResult matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.StudentApply matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.StudentName matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Tec matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+3778 [DEBUG] 2019-12-27 14:14:00 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+4064 [DEBUG] 2019-12-27 14:14:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+4064 [DEBUG] 2019-12-27 14:14:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+4079 [DEBUG] 2019-12-27 14:14:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+4079 [DEBUG] 2019-12-27 14:14:00 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+4295 [INFO ] 2019-12-27 14:14:01 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+4411 [DEBUG] 2019-12-27 14:14:01 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+4527 [INFO ] 2019-12-27 14:14:01 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+4565 [INFO ] 2019-12-27 14:14:01 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+4565 [INFO ] 2019-12-27 14:14:01 [main] com.example.demo.DemoApplication - Started DemoApplication in 4.349 seconds (JVM running for 6.052)
+28050 [INFO ] 2019-12-27 14:14:24 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+28050 [INFO ] 2019-12-27 14:14:24 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+28053 [INFO ] 2019-12-27 14:14:24 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+46890 [DEBUG] 2019-12-27 14:14:43 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+46906 [DEBUG] 2019-12-27 14:14:43 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d968a32] was not registered for synchronization because synchronization is not active
+46912 [INFO ] 2019-12-27 14:14:43 [http-nio-8888-exec-8] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+47877 [INFO ] 2019-12-27 14:14:44 [http-nio-8888-exec-8] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+47884 [DEBUG] 2019-12-27 14:14:44 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1399453273 wrapping com.mysql.cj.jdbc.ConnectionImpl@605b1ef3] will not be managed by Spring
+47884 [DEBUG] 2019-12-27 14:14:44 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+47915 [DEBUG] 2019-12-27 14:14:44 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - ==> Parameters: admin(String), admin(String)
+47946 [DEBUG] 2019-12-27 14:14:44 [http-nio-8888-exec-8] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+47946 [DEBUG] 2019-12-27 14:14:44 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d968a32]
+98660 [DEBUG] 2019-12-27 14:15:35 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+98660 [DEBUG] 2019-12-27 14:15:35 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c50c8c4] was not registered for synchronization because synchronization is not active
+98666 [DEBUG] 2019-12-27 14:15:35 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@424828202 wrapping com.mysql.cj.jdbc.ConnectionImpl@605b1ef3] will not be managed by Spring
+98666 [DEBUG] 2019-12-27 14:15:35 [http-nio-8888-exec-10] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+98666 [DEBUG] 2019-12-27 14:15:35 [http-nio-8888-exec-10] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+98666 [DEBUG] 2019-12-27 14:15:35 [http-nio-8888-exec-10] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+98666 [DEBUG] 2019-12-27 14:15:35 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5c50c8c4]
+304035 [INFO ] 2019-12-27 14:19:00 [RMI TCP Connection(8)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+304048 [INFO ] 2019-12-27 14:19:00 [RMI TCP Connection(8)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+304048 [INFO ] 2019-12-27 14:19:00 [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+304080 [INFO ] 2019-12-27 14:19:00 [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+686  [INFO ] 2019-12-27 14:19:08 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 17300 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+702  [DEBUG] 2019-12-27 14:19:08 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+702  [INFO ] 2019-12-27 14:19:08 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+1419 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+1419 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+1435 [DEBUG] 2019-12-27 14:19:09 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1435 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+1435 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+1435 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+1435 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+1451 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+1451 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+1451 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+1451 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+1451 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+1451 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+1451 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+1451 [DEBUG] 2019-12-27 14:19:09 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2059 [INFO ] 2019-12-27 14:19:09 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2068 [INFO ] 2019-12-27 14:19:09 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2084 [INFO ] 2019-12-27 14:19:09 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2084 [INFO ] 2019-12-27 14:19:09 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2084 [INFO ] 2019-12-27 14:19:09 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+2190 [INFO ] 2019-12-27 14:19:09 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2190 [INFO ] 2019-12-27 14:19:09 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1457 ms
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Pay matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchCurrentResult matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchTeacher matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchTeacherResult matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.StudentApply matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.StudentName matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Tec matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+2359 [DEBUG] 2019-12-27 14:19:10 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+2575 [DEBUG] 2019-12-27 14:19:10 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+2591 [DEBUG] 2019-12-27 14:19:10 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+2591 [DEBUG] 2019-12-27 14:19:10 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+2607 [DEBUG] 2019-12-27 14:19:10 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+2807 [INFO ] 2019-12-27 14:19:10 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2923 [DEBUG] 2019-12-27 14:19:10 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+3023 [INFO ] 2019-12-27 14:19:10 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+3055 [INFO ] 2019-12-27 14:19:10 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+3061 [INFO ] 2019-12-27 14:19:10 [main] com.example.demo.DemoApplication - Started DemoApplication in 2.93 seconds (JVM running for 4.014)
+5531 [INFO ] 2019-12-27 14:19:13 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+5531 [INFO ] 2019-12-27 14:19:13 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+5543 [INFO ] 2019-12-27 14:19:13 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+19606 [DEBUG] 2019-12-27 14:19:27 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+19606 [DEBUG] 2019-12-27 14:19:27 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@588b9f34] was not registered for synchronization because synchronization is not active
+19606 [INFO ] 2019-12-27 14:19:27 [http-nio-8888-exec-9] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20362 [INFO ] 2019-12-27 14:19:28 [http-nio-8888-exec-9] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20362 [DEBUG] 2019-12-27 14:19:28 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@608521996 wrapping com.mysql.cj.jdbc.ConnectionImpl@1576bf18] will not be managed by Spring
+20378 [DEBUG] 2019-12-27 14:19:28 [http-nio-8888-exec-9] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+20393 [DEBUG] 2019-12-27 14:19:28 [http-nio-8888-exec-9] c.e.demo.mapper.UserMapper.login - ==> Parameters: admin(String), admin(String)
+20424 [DEBUG] 2019-12-27 14:19:28 [http-nio-8888-exec-9] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+20424 [DEBUG] 2019-12-27 14:19:28 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@588b9f34]
+22973 [DEBUG] 2019-12-27 14:19:30 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+22973 [DEBUG] 2019-12-27 14:19:30 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45452740] was not registered for synchronization because synchronization is not active
+22973 [DEBUG] 2019-12-27 14:19:30 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@4694412 wrapping com.mysql.cj.jdbc.ConnectionImpl@1576bf18] will not be managed by Spring
+22973 [DEBUG] 2019-12-27 14:19:30 [http-nio-8888-exec-3] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+22980 [DEBUG] 2019-12-27 14:19:30 [http-nio-8888-exec-3] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+22981 [DEBUG] 2019-12-27 14:19:30 [http-nio-8888-exec-3] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+22981 [DEBUG] 2019-12-27 14:19:30 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45452740]
+24526 [WARN ] 2019-12-27 14:19:32 [http-nio-8888-exec-4] o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+95948 [DEBUG] 2019-12-27 14:20:43 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+95948 [DEBUG] 2019-12-27 14:20:43 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b7b4f77] was not registered for synchronization because synchronization is not active
+95948 [DEBUG] 2019-12-27 14:20:43 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@618333747 wrapping com.mysql.cj.jdbc.ConnectionImpl@1576bf18] will not be managed by Spring
+95948 [DEBUG] 2019-12-27 14:20:43 [http-nio-8888-exec-1] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+95948 [DEBUG] 2019-12-27 14:20:43 [http-nio-8888-exec-1] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+95963 [DEBUG] 2019-12-27 14:20:43 [http-nio-8888-exec-1] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+95964 [DEBUG] 2019-12-27 14:20:43 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b7b4f77]
+96798 [DEBUG] 2019-12-27 14:20:44 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+96798 [DEBUG] 2019-12-27 14:20:44 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26a401cb] was not registered for synchronization because synchronization is not active
+96798 [DEBUG] 2019-12-27 14:20:44 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1337809323 wrapping com.mysql.cj.jdbc.ConnectionImpl@1576bf18] will not be managed by Spring
+96798 [DEBUG] 2019-12-27 14:20:44 [http-nio-8888-exec-2] c.e.d.mapper.StudentMapper.showPay - ==>  Preparing: select * from payment where payment_id = ? 
+96798 [DEBUG] 2019-12-27 14:20:44 [http-nio-8888-exec-2] c.e.d.mapper.StudentMapper.showPay - ==> Parameters: 0(Integer)
+96798 [DEBUG] 2019-12-27 14:20:44 [http-nio-8888-exec-2] c.e.d.mapper.StudentMapper.showPay - <==      Total: 0
+96798 [DEBUG] 2019-12-27 14:20:44 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@26a401cb]
+127798 [DEBUG] 2019-12-27 14:21:15 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+127798 [DEBUG] 2019-12-27 14:21:15 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@414fbcdb] was not registered for synchronization because synchronization is not active
+127800 [DEBUG] 2019-12-27 14:21:15 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@525075602 wrapping com.mysql.cj.jdbc.ConnectionImpl@1576bf18] will not be managed by Spring
+127800 [DEBUG] 2019-12-27 14:21:15 [http-nio-8888-exec-3] c.e.d.mapper.StudentMapper.showPay - ==>  Preparing: select * from payment where payment_id = ? 
+127800 [DEBUG] 2019-12-27 14:21:15 [http-nio-8888-exec-3] c.e.d.mapper.StudentMapper.showPay - ==> Parameters: 0(Integer)
+127801 [DEBUG] 2019-12-27 14:21:15 [http-nio-8888-exec-3] c.e.d.mapper.StudentMapper.showPay - <==      Total: 0
+127801 [DEBUG] 2019-12-27 14:21:15 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@414fbcdb]
+136620 [DEBUG] 2019-12-27 14:21:24 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+136620 [DEBUG] 2019-12-27 14:21:24 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a2cbbc7] was not registered for synchronization because synchronization is not active
+136620 [DEBUG] 2019-12-27 14:21:24 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2099972896 wrapping com.mysql.cj.jdbc.ConnectionImpl@1576bf18] will not be managed by Spring
+136620 [DEBUG] 2019-12-27 14:21:24 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+136620 [DEBUG] 2019-12-27 14:21:24 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+136639 [DEBUG] 2019-12-27 14:21:24 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+136640 [DEBUG] 2019-12-27 14:21:24 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2a2cbbc7]
+155524 [DEBUG] 2019-12-27 14:21:43 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+155524 [DEBUG] 2019-12-27 14:21:43 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2eacca33] was not registered for synchronization because synchronization is not active
+155524 [DEBUG] 2019-12-27 14:21:43 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@698567953 wrapping com.mysql.cj.jdbc.ConnectionImpl@1576bf18] will not be managed by Spring
+155524 [DEBUG] 2019-12-27 14:21:43 [http-nio-8888-exec-9] c.e.d.mapper.StudentMapper.showPay - ==>  Preparing: select * from payment where payment_id = ? 
+155527 [DEBUG] 2019-12-27 14:21:43 [http-nio-8888-exec-9] c.e.d.mapper.StudentMapper.showPay - ==> Parameters: 0(Integer)
+155528 [DEBUG] 2019-12-27 14:21:43 [http-nio-8888-exec-9] c.e.d.mapper.StudentMapper.showPay - <==      Total: 0
+155529 [DEBUG] 2019-12-27 14:21:43 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2eacca33]
+198931 [INFO ] 2019-12-27 14:22:26 [RMI TCP Connection(6)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+198940 [INFO ] 2019-12-27 14:22:26 [RMI TCP Connection(6)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+198940 [INFO ] 2019-12-27 14:22:26 [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+198953 [INFO ] 2019-12-27 14:22:26 [RMI TCP Connection(6)-127.0.0.1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+656  [DEBUG] 2019-12-27 14:22:33 [background-preinit] o.h.v.m.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+771  [INFO ] 2019-12-27 14:22:33 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 11968 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+771  [DEBUG] 2019-12-27 14:22:33 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+771  [INFO ] 2019-12-27 14:22:33 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+1604 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+1604 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+1620 [DEBUG] 2019-12-27 14:22:34 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+1627 [DEBUG] 2019-12-27 14:22:34 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2391 [INFO ] 2019-12-27 14:22:35 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2407 [INFO ] 2019-12-27 14:22:35 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2428 [INFO ] 2019-12-27 14:22:35 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2428 [INFO ] 2019-12-27 14:22:35 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2428 [INFO ] 2019-12-27 14:22:35 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+2560 [INFO ] 2019-12-27 14:22:35 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2560 [INFO ] 2019-12-27 14:22:35 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1735 ms
+2761 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Pay matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchCurrentResult matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchTeacher matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchTeacherResult matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.StudentApply matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.StudentName matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Tec matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+2776 [DEBUG] 2019-12-27 14:22:35 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+3030 [DEBUG] 2019-12-27 14:22:35 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+3046 [DEBUG] 2019-12-27 14:22:35 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+3061 [DEBUG] 2019-12-27 14:22:35 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+3077 [DEBUG] 2019-12-27 14:22:35 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+3378 [INFO ] 2019-12-27 14:22:36 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+3578 [DEBUG] 2019-12-27 14:22:36 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+3710 [INFO ] 2019-12-27 14:22:36 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+3748 [INFO ] 2019-12-27 14:22:36 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+3763 [INFO ] 2019-12-27 14:22:36 [main] com.example.demo.DemoApplication - Started DemoApplication in 3.593 seconds (JVM running for 5.104)
+5686 [INFO ] 2019-12-27 14:22:38 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+5686 [INFO ] 2019-12-27 14:22:38 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+5703 [INFO ] 2019-12-27 14:22:38 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 17 ms
+29873 [DEBUG] 2019-12-27 14:23:02 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+29883 [DEBUG] 2019-12-27 14:23:02 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b5fb30c] was not registered for synchronization because synchronization is not active
+29899 [INFO ] 2019-12-27 14:23:02 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+30645 [INFO ] 2019-12-27 14:23:03 [http-nio-8888-exec-1] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+30645 [DEBUG] 2019-12-27 14:23:03 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@800910307 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+30645 [DEBUG] 2019-12-27 14:23:03 [http-nio-8888-exec-1] c.e.d.mapper.StudentMapper.showPay - ==>  Preparing: select * from payment where payment_id = ? 
+30676 [DEBUG] 2019-12-27 14:23:03 [http-nio-8888-exec-1] c.e.d.mapper.StudentMapper.showPay - ==> Parameters: 0(Integer)
+30707 [DEBUG] 2019-12-27 14:23:03 [http-nio-8888-exec-1] c.e.d.mapper.StudentMapper.showPay - <==      Total: 0
+30707 [DEBUG] 2019-12-27 14:23:03 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@b5fb30c]
+84864 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+84864 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d42f16d] was not registered for synchronization because synchronization is not active
+84864 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@835417328 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+84864 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+84864 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), teacher(String)
+84880 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+84880 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6d42f16d]
+85067 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+85082 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39fbf578] was not registered for synchronization because synchronization is not active
+85082 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@926682167 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+85082 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-9] c.e.d.m.T.selectTeacherMsg - ==>  Preparing: select * from teacher where teacher_name = ? and teacher_status = 0 
+85082 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-9] c.e.d.m.T.selectTeacherMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+85098 [DEBUG] 2019-12-27 14:23:57 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@39fbf578]
+128944 [DEBUG] 2019-12-27 14:24:41 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+128944 [DEBUG] 2019-12-27 14:24:41 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f4381cf] was not registered for synchronization because synchronization is not active
+128953 [DEBUG] 2019-12-27 14:24:41 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@293895255 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+128953 [DEBUG] 2019-12-27 14:24:41 [http-nio-8888-exec-8] c.e.d.m.T.selectTeacherMsg - ==>  Preparing: select * from teacher where teacher_name = ? and teacher_status = 0 
+128953 [DEBUG] 2019-12-27 14:24:41 [http-nio-8888-exec-8] c.e.d.m.T.selectTeacherMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+128954 [DEBUG] 2019-12-27 14:24:41 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1f4381cf]
+130765 [DEBUG] 2019-12-27 14:24:43 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+130765 [DEBUG] 2019-12-27 14:24:43 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6cd32817] was not registered for synchronization because synchronization is not active
+130765 [DEBUG] 2019-12-27 14:24:43 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@578597969 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+130765 [DEBUG] 2019-12-27 14:24:43 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+130765 [DEBUG] 2019-12-27 14:24:43 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+130765 [DEBUG] 2019-12-27 14:24:43 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+130781 [DEBUG] 2019-12-27 14:24:43 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6cd32817]
+133162 [DEBUG] 2019-12-27 14:24:45 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+133162 [DEBUG] 2019-12-27 14:24:45 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f05d0ec] was not registered for synchronization because synchronization is not active
+133162 [DEBUG] 2019-12-27 14:24:45 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@705123176 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+133162 [DEBUG] 2019-12-27 14:24:45 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+133177 [DEBUG] 2019-12-27 14:24:45 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+133188 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+133188 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6f05d0ec]
+133911 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+133917 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7448d6cc] was not registered for synchronization because synchronization is not active
+133917 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1655473249 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+133917 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-7] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+133917 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-7] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+133917 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-7] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+133917 [DEBUG] 2019-12-27 14:24:46 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7448d6cc]
+135673 [DEBUG] 2019-12-27 14:24:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+135673 [DEBUG] 2019-12-27 14:24:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e4db9f7] was not registered for synchronization because synchronization is not active
+135673 [DEBUG] 2019-12-27 14:24:48 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@610487093 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+135673 [DEBUG] 2019-12-27 14:24:48 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+135689 [DEBUG] 2019-12-27 14:24:48 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+135689 [DEBUG] 2019-12-27 14:24:48 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+135689 [DEBUG] 2019-12-27 14:24:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e4db9f7]
+138199 [DEBUG] 2019-12-27 14:24:51 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+138199 [DEBUG] 2019-12-27 14:24:51 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b57bbdc] was not registered for synchronization because synchronization is not active
+138214 [DEBUG] 2019-12-27 14:24:51 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@394152044 wrapping com.mysql.cj.jdbc.ConnectionImpl@74318d51] will not be managed by Spring
+138215 [DEBUG] 2019-12-27 14:24:51 [http-nio-8888-exec-10] c.e.demo.mapper.UserMapper.toUpdate - ==>  Preparing: select * from user where user_id = ? and user_status=0 
+138215 [DEBUG] 2019-12-27 14:24:51 [http-nio-8888-exec-10] c.e.demo.mapper.UserMapper.toUpdate - ==> Parameters: 5(Integer)
+138215 [DEBUG] 2019-12-27 14:24:51 [http-nio-8888-exec-10] c.e.demo.mapper.UserMapper.toUpdate - <==      Total: 1
+138215 [DEBUG] 2019-12-27 14:24:51 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5b57bbdc]
+640  [INFO ] 2019-12-27 14:51:10 [main] com.example.demo.DemoApplication - Starting DemoApplication on DESKTOP-S9T7PJP with PID 4596 (C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes started by DeHaoWang in C:\Users\DeHaoWang\eclipse-workspace2\demo2)
+655  [DEBUG] 2019-12-27 14:51:10 [main] com.example.demo.DemoApplication - Running with Spring Boot v2.1.3.RELEASE, Spring v5.1.5.RELEASE
+655  [INFO ] 2019-12-27 14:51:10 [main] com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+1589 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.b.a.MybatisAutoConfiguration - Searching for mappers annotated with @Mapper
+1592 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.b.a.MybatisAutoConfiguration - Using auto-configuration base package 'com.example.demo'
+1593 [DEBUG] 2019-12-27 14:51:11 [main] org.apache.ibatis.logging.LogFactory - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+1593 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\CourseMapper.class]
+1593 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\StudentMapper.class]
+1593 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\TeacherMapper.class]
+1593 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Identified candidate component class: file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\com\example\demo\mapper\UserMapper.class]
+1609 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'courseMapper' and 'com.example.demo.mapper.CourseMapper' mapperInterface
+1609 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'courseMapper'.
+1609 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'studentMapper' and 'com.example.demo.mapper.StudentMapper' mapperInterface
+1609 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'studentMapper'.
+1609 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'teacherMapper' and 'com.example.demo.mapper.TeacherMapper' mapperInterface
+1609 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'teacherMapper'.
+1609 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Creating MapperFactoryBean with name 'userMapper' and 'com.example.demo.mapper.UserMapper' mapperInterface
+1609 [DEBUG] 2019-12-27 14:51:11 [main] o.m.s.mapper.ClassPathMapperScanner - Enabling autowire by type for MapperFactoryBean with name 'userMapper'.
+2206 [INFO ] 2019-12-27 14:51:11 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2206 [INFO ] 2019-12-27 14:51:11 [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8888"]
+2222 [INFO ] 2019-12-27 14:51:11 [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2222 [INFO ] 2019-12-27 14:51:11 [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2222 [INFO ] 2019-12-27 14:51:11 [main] o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_151\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_151\bin;C:\Program Files\Java\jdk1.8.0_151\jre\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\nodejs\;C:\derbyDriver\db-derby-10.14.1.0-bin\bin;C:\Program Files\Git\cmd;C:\Program Files\CrashPlan\jre\bin\server\;C:\Program Files\CrashPlan\jre\bin\;C:\Users\DeHaoWang\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\DeHaoWang\AppData\Roaming\npm;C:\Users\DeHaoWang\Downloads\eclipse-jee-2019-06-R-win32-x86_64\eclipse;;.]
+2545 [INFO ] 2019-12-27 14:51:12 [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2561 [INFO ] 2019-12-27 14:51:12 [main] o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1859 ms
+2724 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.VFS - Using VFS adapter org.mybatis.spring.boot.autoconfigure.SpringBootVFS
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.ChooseCourse matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Course matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Pay matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchCurrentResult matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchTeacher matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.SerchTeacherResult matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Student matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.StudentApply matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.StudentName matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Teacher matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.TeacherSeeCourseList matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.Tec matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.User matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] org.apache.ibatis.io.ResolverUtil - Checking to see if class com.example.demo.entity.adminSeeStudentChooseCourseMsg matches criteria [is assignable to Object]
+2737 [DEBUG] 2019-12-27 14:51:12 [main] o.m.spring.SqlSessionFactoryBean - Scanned package: 'com.example.demo.entity' for aliases
+2846 [DEBUG] 2019-12-27 14:51:12 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\CourseMapper.xml]'
+2862 [DEBUG] 2019-12-27 14:51:12 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\StudentMapper.xml]'
+2877 [DEBUG] 2019-12-27 14:51:12 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\TeacherMapper.xml]'
+2893 [DEBUG] 2019-12-27 14:51:12 [main] o.m.spring.SqlSessionFactoryBean - Parsed mapper file: 'file [C:\Users\DeHaoWang\eclipse-workspace2\demo2\target\classes\mapper\UserMapper.xml]'
+3163 [INFO ] 2019-12-27 14:51:12 [main] o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+3294 [DEBUG] 2019-12-27 14:51:13 [main] o.m.s.b.a.MybatisAutoConfiguration - No org.mybatis.spring.mapper.MapperFactoryBean found.
+3394 [INFO ] 2019-12-27 14:51:13 [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8888"]
+3426 [INFO ] 2019-12-27 14:51:13 [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+3426 [INFO ] 2019-12-27 14:51:13 [main] com.example.demo.DemoApplication - Started DemoApplication in 3.287 seconds (JVM running for 4.529)
+290531 [INFO ] 2019-12-27 14:56:00 [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+290531 [INFO ] 2019-12-27 14:56:00 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+290535 [INFO ] 2019-12-27 14:56:00 [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+465400 [DEBUG] 2019-12-27 14:58:55 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+465400 [DEBUG] 2019-12-27 14:58:55 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c451b9b] was not registered for synchronization because synchronization is not active
+465400 [INFO ] 2019-12-27 14:58:55 [http-nio-8888-exec-3] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+466418 [INFO ] 2019-12-27 14:58:56 [http-nio-8888-exec-3] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+466423 [DEBUG] 2019-12-27 14:58:56 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2003797750 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+466423 [DEBUG] 2019-12-27 14:58:56 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+466454 [DEBUG] 2019-12-27 14:58:56 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - ==> Parameters: admin(String), admin(String)
+466486 [DEBUG] 2019-12-27 14:58:56 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+466486 [DEBUG] 2019-12-27 14:58:56 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@4c451b9b]
+509779 [DEBUG] 2019-12-27 14:59:39 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+509779 [DEBUG] 2019-12-27 14:59:39 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d236bee] was not registered for synchronization because synchronization is not active
+509779 [DEBUG] 2019-12-27 14:59:39 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2015486510 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+509779 [DEBUG] 2019-12-27 14:59:39 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+509779 [DEBUG] 2019-12-27 14:59:39 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+509803 [DEBUG] 2019-12-27 14:59:39 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+509803 [DEBUG] 2019-12-27 14:59:39 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3d236bee]
+512662 [DEBUG] 2019-12-27 14:59:42 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+512662 [DEBUG] 2019-12-27 14:59:42 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7366f530] was not registered for synchronization because synchronization is not active
+512671 [DEBUG] 2019-12-27 14:59:42 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1108983725 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+512671 [DEBUG] 2019-12-27 14:59:42 [http-nio-8888-exec-9] c.e.d.mapper.StudentMapper.showPay - ==>  Preparing: select * from payment where payment_id = ? 
+512672 [DEBUG] 2019-12-27 14:59:42 [http-nio-8888-exec-9] c.e.d.mapper.StudentMapper.showPay - ==> Parameters: 0(Integer)
+512673 [DEBUG] 2019-12-27 14:59:42 [http-nio-8888-exec-9] c.e.d.mapper.StudentMapper.showPay - <==      Total: 0
+512673 [DEBUG] 2019-12-27 14:59:42 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7366f530]
+612980 [DEBUG] 2019-12-27 15:01:22 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+612980 [DEBUG] 2019-12-27 15:01:22 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3775f1ef] was not registered for synchronization because synchronization is not active
+612980 [DEBUG] 2019-12-27 15:01:22 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1958315245 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+612980 [DEBUG] 2019-12-27 15:01:22 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+612980 [DEBUG] 2019-12-27 15:01:22 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+612980 [DEBUG] 2019-12-27 15:01:22 [http-nio-8888-exec-8] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+612980 [DEBUG] 2019-12-27 15:01:22 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3775f1ef]
+617181 [DEBUG] 2019-12-27 15:01:26 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+617181 [DEBUG] 2019-12-27 15:01:26 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@737f3fba] was not registered for synchronization because synchronization is not active
+617191 [DEBUG] 2019-12-27 15:01:26 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1339269557 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+617191 [DEBUG] 2019-12-27 15:01:26 [http-nio-8888-exec-10] c.e.d.m.CourseMapper.showAllUsers - ==>  Preparing: select * from user 
+617191 [DEBUG] 2019-12-27 15:01:26 [http-nio-8888-exec-10] c.e.d.m.CourseMapper.showAllUsers - ==> Parameters: 
+617193 [DEBUG] 2019-12-27 15:01:26 [http-nio-8888-exec-10] c.e.d.m.CourseMapper.showAllUsers - <==      Total: 5
+617193 [DEBUG] 2019-12-27 15:01:26 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@737f3fba]
+619661 [DEBUG] 2019-12-27 15:01:29 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+619661 [DEBUG] 2019-12-27 15:01:29 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@464a70f8] was not registered for synchronization because synchronization is not active
+619677 [DEBUG] 2019-12-27 15:01:29 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@16520561 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+619677 [DEBUG] 2019-12-27 15:01:29 [http-nio-8888-exec-2] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+619677 [DEBUG] 2019-12-27 15:01:29 [http-nio-8888-exec-2] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+619677 [DEBUG] 2019-12-27 15:01:29 [http-nio-8888-exec-2] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+619677 [DEBUG] 2019-12-27 15:01:29 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@464a70f8]
+665987 [DEBUG] 2019-12-27 15:02:15 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+665987 [DEBUG] 2019-12-27 15:02:15 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56a8a3b4] was not registered for synchronization because synchronization is not active
+665990 [DEBUG] 2019-12-27 15:02:15 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1483691793 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+665990 [DEBUG] 2019-12-27 15:02:15 [http-nio-8888-exec-7] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+665990 [DEBUG] 2019-12-27 15:02:15 [http-nio-8888-exec-7] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+665993 [DEBUG] 2019-12-27 15:02:15 [http-nio-8888-exec-7] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+665993 [DEBUG] 2019-12-27 15:02:15 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@56a8a3b4]
+738986 [DEBUG] 2019-12-27 15:03:28 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+738986 [DEBUG] 2019-12-27 15:03:28 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15fb6ac] was not registered for synchronization because synchronization is not active
+738986 [DEBUG] 2019-12-27 15:03:28 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1634233451 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+738986 [DEBUG] 2019-12-27 15:03:28 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+739001 [DEBUG] 2019-12-27 15:03:28 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), teacher(String)
+739001 [DEBUG] 2019-12-27 15:03:28 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+739001 [DEBUG] 2019-12-27 15:03:28 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@15fb6ac]
+739288 [DEBUG] 2019-12-27 15:03:29 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+739288 [DEBUG] 2019-12-27 15:03:29 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33007871] was not registered for synchronization because synchronization is not active
+739288 [DEBUG] 2019-12-27 15:03:29 [http-nio-8888-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@926939849 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+739288 [DEBUG] 2019-12-27 15:03:29 [http-nio-8888-exec-5] c.e.d.m.T.selectTeacherMsg - ==>  Preparing: select * from teacher where teacher_name = ? and teacher_status = 0 
+739288 [DEBUG] 2019-12-27 15:03:29 [http-nio-8888-exec-5] c.e.d.m.T.selectTeacherMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+739328 [DEBUG] 2019-12-27 15:03:29 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33007871]
+741287 [DEBUG] 2019-12-27 15:03:31 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+741287 [DEBUG] 2019-12-27 15:03:31 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27ed1096] was not registered for synchronization because synchronization is not active
+741287 [DEBUG] 2019-12-27 15:03:31 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@538577755 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+741287 [DEBUG] 2019-12-27 15:03:31 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+741287 [DEBUG] 2019-12-27 15:03:31 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+741287 [DEBUG] 2019-12-27 15:03:31 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+741287 [DEBUG] 2019-12-27 15:03:31 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@27ed1096]
+746233 [DEBUG] 2019-12-27 15:03:35 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+746233 [DEBUG] 2019-12-27 15:03:35 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@511b1feb] was not registered for synchronization because synchronization is not active
+746233 [DEBUG] 2019-12-27 15:03:35 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1584408242 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+746233 [DEBUG] 2019-12-27 15:03:35 [http-nio-8888-exec-9] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+746233 [DEBUG] 2019-12-27 15:03:35 [http-nio-8888-exec-9] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+746233 [DEBUG] 2019-12-27 15:03:35 [http-nio-8888-exec-9] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+746233 [DEBUG] 2019-12-27 15:03:35 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@511b1feb]
+746866 [DEBUG] 2019-12-27 15:03:36 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+746866 [DEBUG] 2019-12-27 15:03:36 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23d71b2f] was not registered for synchronization because synchronization is not active
+746866 [DEBUG] 2019-12-27 15:03:36 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@886501111 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+746866 [DEBUG] 2019-12-27 15:03:36 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+746866 [DEBUG] 2019-12-27 15:03:36 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+746866 [DEBUG] 2019-12-27 15:03:36 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+746866 [DEBUG] 2019-12-27 15:03:36 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@23d71b2f]
+793033 [DEBUG] 2019-12-27 15:04:22 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+793033 [DEBUG] 2019-12-27 15:04:22 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53af49e6] was not registered for synchronization because synchronization is not active
+793033 [DEBUG] 2019-12-27 15:04:22 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@550672914 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+793033 [DEBUG] 2019-12-27 15:04:22 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+793033 [DEBUG] 2019-12-27 15:04:22 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+793033 [DEBUG] 2019-12-27 15:04:22 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+793033 [DEBUG] 2019-12-27 15:04:22 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@53af49e6]
+794236 [DEBUG] 2019-12-27 15:04:23 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+794236 [DEBUG] 2019-12-27 15:04:23 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c73075d] was not registered for synchronization because synchronization is not active
+794236 [DEBUG] 2019-12-27 15:04:23 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1111525705 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+794236 [DEBUG] 2019-12-27 15:04:23 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+794236 [DEBUG] 2019-12-27 15:04:23 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+794243 [DEBUG] 2019-12-27 15:04:23 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+794244 [DEBUG] 2019-12-27 15:04:23 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7c73075d]
+815775 [DEBUG] 2019-12-27 15:04:45 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+815776 [DEBUG] 2019-12-27 15:04:45 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16765769] was not registered for synchronization because synchronization is not active
+815778 [DEBUG] 2019-12-27 15:04:45 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1328987885 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+815778 [DEBUG] 2019-12-27 15:04:45 [http-nio-8888-exec-7] c.e.d.m.TeacherMapper.updateTimeMsg - ==>  Preparing: update mentorcalendar set start_date=?,end_date=? where mentor_name=? 
+815781 [DEBUG] 2019-12-27 15:04:45 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@16765769]
+816458 [DEBUG] 2019-12-27 15:04:46 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+816458 [DEBUG] 2019-12-27 15:04:46 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@789a2c5f] was not registered for synchronization because synchronization is not active
+816458 [DEBUG] 2019-12-27 15:04:46 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1045969271 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+816458 [DEBUG] 2019-12-27 15:04:46 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+816458 [DEBUG] 2019-12-27 15:04:46 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+816458 [DEBUG] 2019-12-27 15:04:46 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+816458 [DEBUG] 2019-12-27 15:04:46 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@789a2c5f]
+866294 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+866294 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1655928f] was not registered for synchronization because synchronization is not active
+866294 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1002295621 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+866294 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+866294 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+866294 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+866294 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1655928f]
+867229 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+867229 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bce88d7] was not registered for synchronization because synchronization is not active
+867229 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@630008600 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+867229 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+867229 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+867229 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+867244 [DEBUG] 2019-12-27 15:05:36 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1bce88d7]
+867868 [DEBUG] 2019-12-27 15:05:37 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+867868 [DEBUG] 2019-12-27 15:05:37 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@412d3ca] was not registered for synchronization because synchronization is not active
+867868 [DEBUG] 2019-12-27 15:05:37 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@371984751 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+867868 [DEBUG] 2019-12-27 15:05:37 [http-nio-8888-exec-9] c.e.d.m.TeacherMapper.updateTimeMsg - ==>  Preparing: update mentorcalendar set start_date=?,end_date=? where mentor_name=? 
+867868 [DEBUG] 2019-12-27 15:05:37 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@412d3ca]
+868950 [DEBUG] 2019-12-27 15:05:38 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+868957 [DEBUG] 2019-12-27 15:05:38 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5687452c] was not registered for synchronization because synchronization is not active
+868957 [DEBUG] 2019-12-27 15:05:38 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@841677134 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+868957 [DEBUG] 2019-12-27 15:05:38 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+868957 [DEBUG] 2019-12-27 15:05:38 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+868957 [DEBUG] 2019-12-27 15:05:38 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+868957 [DEBUG] 2019-12-27 15:05:38 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5687452c]
+869939 [DEBUG] 2019-12-27 15:05:39 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+869939 [DEBUG] 2019-12-27 15:05:39 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24205eee] was not registered for synchronization because synchronization is not active
+869939 [DEBUG] 2019-12-27 15:05:39 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@692218725 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+869939 [DEBUG] 2019-12-27 15:05:39 [http-nio-8888-exec-3] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+869939 [DEBUG] 2019-12-27 15:05:39 [http-nio-8888-exec-3] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+869939 [DEBUG] 2019-12-27 15:05:39 [http-nio-8888-exec-3] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+869939 [DEBUG] 2019-12-27 15:05:39 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@24205eee]
+876591 [DEBUG] 2019-12-27 15:05:46 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+876591 [DEBUG] 2019-12-27 15:05:46 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@241183d1] was not registered for synchronization because synchronization is not active
+876591 [DEBUG] 2019-12-27 15:05:46 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@70353523 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+876591 [DEBUG] 2019-12-27 15:05:46 [http-nio-8888-exec-8] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+876591 [DEBUG] 2019-12-27 15:05:46 [http-nio-8888-exec-8] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+876591 [DEBUG] 2019-12-27 15:05:46 [http-nio-8888-exec-8] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+876591 [DEBUG] 2019-12-27 15:05:46 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@241183d1]
+892595 [DEBUG] 2019-12-27 15:06:02 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+892595 [DEBUG] 2019-12-27 15:06:02 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c154c5d] was not registered for synchronization because synchronization is not active
+892595 [DEBUG] 2019-12-27 15:06:02 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1619223461 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+892595 [DEBUG] 2019-12-27 15:06:02 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+892595 [DEBUG] 2019-12-27 15:06:02 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - ==> Parameters: xiaolli(String), student(String)
+892595 [DEBUG] 2019-12-27 15:06:02 [http-nio-8888-exec-2] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+892595 [DEBUG] 2019-12-27 15:06:02 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c154c5d]
+969578 [DEBUG] 2019-12-27 15:07:19 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+969578 [DEBUG] 2019-12-27 15:07:19 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e8b6326] was not registered for synchronization because synchronization is not active
+969578 [DEBUG] 2019-12-27 15:07:19 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1514684094 wrapping com.mysql.cj.jdbc.ConnectionImpl@3da4d442] will not be managed by Spring
+969578 [DEBUG] 2019-12-27 15:07:19 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+969578 [DEBUG] 2019-12-27 15:07:19 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - ==> Parameters: xiaolli(String), student(String)
+969578 [DEBUG] 2019-12-27 15:07:19 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+969578 [DEBUG] 2019-12-27 15:07:19 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3e8b6326]
+2312728 [DEBUG] 2019-12-27 15:29:42 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2312728 [DEBUG] 2019-12-27 15:29:42 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a8e91e3] was not registered for synchronization because synchronization is not active
+2312728 [DEBUG] 2019-12-27 15:29:42 [http-nio-8888-exec-3] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@536432583 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+2312728 [DEBUG] 2019-12-27 15:29:42 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+2312743 [DEBUG] 2019-12-27 15:29:42 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - ==> Parameters: xiaolli(String), student(String)
+2312743 [DEBUG] 2019-12-27 15:29:42 [http-nio-8888-exec-3] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+2312743 [DEBUG] 2019-12-27 15:29:42 [http-nio-8888-exec-3] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7a8e91e3]
+2398344 [DEBUG] 2019-12-27 15:31:08 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2398344 [DEBUG] 2019-12-27 15:31:08 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@366bbdcf] was not registered for synchronization because synchronization is not active
+2398349 [DEBUG] 2019-12-27 15:31:08 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@620078155 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+2398349 [DEBUG] 2019-12-27 15:31:08 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+2398349 [DEBUG] 2019-12-27 15:31:08 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+2398349 [DEBUG] 2019-12-27 15:31:08 [http-nio-8888-exec-9] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+2398349 [DEBUG] 2019-12-27 15:31:08 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@366bbdcf]
+2422468 [DEBUG] 2019-12-27 15:31:32 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2422468 [DEBUG] 2019-12-27 15:31:32 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34dd8a9f] was not registered for synchronization because synchronization is not active
+2422468 [DEBUG] 2019-12-27 15:31:32 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@169992652 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+2422468 [DEBUG] 2019-12-27 15:31:32 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+2422468 [DEBUG] 2019-12-27 15:31:32 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: xiaolli(String)
+2422484 [DEBUG] 2019-12-27 15:31:32 [http-nio-8888-exec-4] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+2422486 [DEBUG] 2019-12-27 15:31:32 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@34dd8a9f]
+2470543 [DEBUG] 2019-12-27 15:32:20 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2470543 [DEBUG] 2019-12-27 15:32:20 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40467003] was not registered for synchronization because synchronization is not active
+2470559 [DEBUG] 2019-12-27 15:32:20 [http-nio-8888-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1940631058 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+2470559 [DEBUG] 2019-12-27 15:32:20 [http-nio-8888-exec-5] c.e.demo.mapper.UserMapper.toUpdate - ==>  Preparing: select * from user where user_id = ? and user_status=0 
+2470559 [DEBUG] 2019-12-27 15:32:20 [http-nio-8888-exec-5] c.e.demo.mapper.UserMapper.toUpdate - ==> Parameters: 6(Integer)
+2470559 [DEBUG] 2019-12-27 15:32:20 [http-nio-8888-exec-5] c.e.demo.mapper.UserMapper.toUpdate - <==      Total: 1
+2470559 [DEBUG] 2019-12-27 15:32:20 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40467003]
+2569318 [DEBUG] 2019-12-27 15:33:59 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2569318 [DEBUG] 2019-12-27 15:33:59 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72129c1d] was not registered for synchronization because synchronization is not active
+2569318 [DEBUG] 2019-12-27 15:33:59 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1691923445 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+2569318 [DEBUG] 2019-12-27 15:33:59 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - ==>  Preparing: select * from training where trainer_name =? and training_state != '100%' 
+2569318 [DEBUG] 2019-12-27 15:33:59 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - ==> Parameters: xiaolli(String)
+2569333 [DEBUG] 2019-12-27 15:33:59 [http-nio-8888-exec-10] c.e.d.m.C.showCurrentResults - <==      Total: 2
+2569337 [DEBUG] 2019-12-27 15:33:59 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@72129c1d]
+2757998 [DEBUG] 2019-12-27 15:37:07 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+2757998 [DEBUG] 2019-12-27 15:37:07 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17576ac3] was not registered for synchronization because synchronization is not active
+2757998 [DEBUG] 2019-12-27 15:37:07 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@965082154 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+2757998 [DEBUG] 2019-12-27 15:37:07 [http-nio-8888-exec-4] c.e.d.m.C.showCompleteResults - ==>  Preparing: select * from training where trainer_name =? and training_state = '100%' 
+2757998 [DEBUG] 2019-12-27 15:37:07 [http-nio-8888-exec-4] c.e.d.m.C.showCompleteResults - ==> Parameters: xiaolli(String)
+2757998 [DEBUG] 2019-12-27 15:37:07 [http-nio-8888-exec-4] c.e.d.m.C.showCompleteResults - <==      Total: 1
+2757998 [DEBUG] 2019-12-27 15:37:07 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@17576ac3]
+3519034 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+3519034 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5189c8ae] was not registered for synchronization because synchronization is not active
+3519051 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@796020247 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+3519051 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] c.e.d.m.C.showChooseCourse - ==>  Preparing: select user_id,user_workyear , user_phone ,user_name , start_date, end_date from user join mentorcalendar on user.user_name = mentorcalendar.mentor_name where user_name = (select user_name from mentorskill where tec_name = ?)and ? between start_date and end_date 
+3519051 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] c.e.d.m.C.showChooseCourse - ==> Parameters: math(String), 2019-12-13 08:00:00.0(Timestamp)
+3519082 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] c.e.d.m.C.showChooseCourse - <==      Total: 1
+3519082 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5189c8ae]
+3519082 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+3519082 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51c6cc33] was not registered for synchronization because synchronization is not active
+3519082 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1819882218 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+3519082 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] c.e.d.mapper.CourseMapper.serchFee - ==>  Preparing: select money from payment where user_name = ? and tec_name = ? 
+3519082 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] c.e.d.mapper.CourseMapper.serchFee - ==> Parameters: wdehaots@cn.ibm.com(String), math(String)
+3519082 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] c.e.d.mapper.CourseMapper.serchFee - <==      Total: 1
+3519098 [DEBUG] 2019-12-27 15:49:48 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@51c6cc33]
+3633501 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+3633501 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45428df2] was not registered for synchronization because synchronization is not active
+3633501 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@636467664 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+3633501 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-7] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+3633501 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-7] c.e.demo.mapper.UserMapper.login - ==> Parameters: wdehaots@cn.ibm.com(String), teacher(String)
+3633517 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-7] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+3633517 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@45428df2]
+3633696 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+3633696 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcd24e2] was not registered for synchronization because synchronization is not active
+3633712 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1464816591 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+3633712 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-10] c.e.d.m.T.selectTeacherMsg - ==>  Preparing: select * from teacher where teacher_name = ? and teacher_status = 0 
+3633712 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-10] c.e.d.m.T.selectTeacherMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+3633727 [DEBUG] 2019-12-27 15:51:43 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2bcd24e2]
+3718070 [DEBUG] 2019-12-27 15:53:07 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+3718070 [DEBUG] 2019-12-27 15:53:07 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71c20e87] was not registered for synchronization because synchronization is not active
+3718070 [DEBUG] 2019-12-27 15:53:07 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@341669413 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+3718070 [DEBUG] 2019-12-27 15:53:07 [http-nio-8888-exec-6] c.e.d.m.T.selectTeacherMsg - ==>  Preparing: select * from teacher where teacher_name = ? and teacher_status = 0 
+3718070 [DEBUG] 2019-12-27 15:53:07 [http-nio-8888-exec-6] c.e.d.m.T.selectTeacherMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+3718070 [DEBUG] 2019-12-27 15:53:07 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@71c20e87]
+3810362 [DEBUG] 2019-12-27 15:54:40 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+3810362 [DEBUG] 2019-12-27 15:54:40 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67f09de] was not registered for synchronization because synchronization is not active
+3810362 [DEBUG] 2019-12-27 15:54:40 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1146607559 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+3810362 [DEBUG] 2019-12-27 15:54:40 [http-nio-8888-exec-10] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+3810362 [DEBUG] 2019-12-27 15:54:40 [http-nio-8888-exec-10] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+3810362 [DEBUG] 2019-12-27 15:54:40 [http-nio-8888-exec-10] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+3810362 [DEBUG] 2019-12-27 15:54:40 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@67f09de]
+3850060 [DEBUG] 2019-12-27 15:55:19 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+3850060 [DEBUG] 2019-12-27 15:55:19 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a6a13ba] was not registered for synchronization because synchronization is not active
+3850060 [DEBUG] 2019-12-27 15:55:19 [http-nio-8888-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@702527132 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+3850060 [DEBUG] 2019-12-27 15:55:19 [http-nio-8888-exec-5] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+3850060 [DEBUG] 2019-12-27 15:55:19 [http-nio-8888-exec-5] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+3850073 [DEBUG] 2019-12-27 15:55:19 [http-nio-8888-exec-5] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+3850073 [DEBUG] 2019-12-27 15:55:19 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5a6a13ba]
+3930085 [DEBUG] 2019-12-27 15:56:39 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+3930085 [DEBUG] 2019-12-27 15:56:39 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c067feb] was not registered for synchronization because synchronization is not active
+3930085 [DEBUG] 2019-12-27 15:56:39 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@272557955 wrapping com.mysql.cj.jdbc.ConnectionImpl@4df3f48] will not be managed by Spring
+3930085 [DEBUG] 2019-12-27 15:56:39 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+3930085 [DEBUG] 2019-12-27 15:56:39 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+3930100 [DEBUG] 2019-12-27 15:56:39 [http-nio-8888-exec-1] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+3930101 [DEBUG] 2019-12-27 15:56:39 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2c067feb]
+4024191 [DEBUG] 2019-12-27 15:58:13 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4024191 [DEBUG] 2019-12-27 15:58:13 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cc4f154] was not registered for synchronization because synchronization is not active
+4024208 [DEBUG] 2019-12-27 15:58:13 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1329450884 wrapping com.mysql.cj.jdbc.ConnectionImpl@3c2616c1] will not be managed by Spring
+4024208 [DEBUG] 2019-12-27 15:58:13 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+4024208 [DEBUG] 2019-12-27 15:58:13 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+4024208 [DEBUG] 2019-12-27 15:58:13 [http-nio-8888-exec-7] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+4024208 [DEBUG] 2019-12-27 15:58:13 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2cc4f154]
+4036867 [DEBUG] 2019-12-27 15:58:26 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4036867 [DEBUG] 2019-12-27 15:58:26 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3691e54e] was not registered for synchronization because synchronization is not active
+4036867 [DEBUG] 2019-12-27 15:58:26 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@458301982 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4036867 [DEBUG] 2019-12-27 15:58:26 [http-nio-8888-exec-2] c.e.d.m.U.crossNameFindUserMsg - ==>  Preparing: select * from user where user_name = ? and user_status=0 
+4036867 [DEBUG] 2019-12-27 15:58:26 [http-nio-8888-exec-2] c.e.d.m.U.crossNameFindUserMsg - ==> Parameters: wdehaots@cn.ibm.com(String)
+4036867 [DEBUG] 2019-12-27 15:58:26 [http-nio-8888-exec-2] c.e.d.m.U.crossNameFindUserMsg - <==      Total: 1
+4036867 [DEBUG] 2019-12-27 15:58:26 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3691e54e]
+4067769 [DEBUG] 2019-12-27 15:58:57 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4067769 [DEBUG] 2019-12-27 15:58:57 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e7ea355] was not registered for synchronization because synchronization is not active
+4067769 [DEBUG] 2019-12-27 15:58:57 [http-nio-8888-exec-5] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1417907427 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4067769 [DEBUG] 2019-12-27 15:58:57 [http-nio-8888-exec-5] c.e.d.m.TeacherMapper.updateTimeMsg - ==>  Preparing: update mentorcalendar set start_date=?,end_date=? where mentor_name=? 
+4067791 [DEBUG] 2019-12-27 15:58:57 [http-nio-8888-exec-5] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5e7ea355]
+4220799 [DEBUG] 2019-12-27 16:01:30 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4220799 [DEBUG] 2019-12-27 16:01:30 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25f9563c] was not registered for synchronization because synchronization is not active
+4220799 [DEBUG] 2019-12-27 16:01:30 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@738319408 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4220799 [DEBUG] 2019-12-27 16:01:30 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+4220799 [DEBUG] 2019-12-27 16:01:30 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4220817 [DEBUG] 2019-12-27 16:01:30 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+4220817 [DEBUG] 2019-12-27 16:01:30 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@25f9563c]
+4226359 [DEBUG] 2019-12-27 16:01:36 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4226359 [DEBUG] 2019-12-27 16:01:36 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6827c8d0] was not registered for synchronization because synchronization is not active
+4226359 [DEBUG] 2019-12-27 16:01:36 [http-nio-8888-exec-9] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@266811059 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4226359 [DEBUG] 2019-12-27 16:01:36 [http-nio-8888-exec-9] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+4226359 [DEBUG] 2019-12-27 16:01:36 [http-nio-8888-exec-9] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4226359 [DEBUG] 2019-12-27 16:01:36 [http-nio-8888-exec-9] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+4226359 [DEBUG] 2019-12-27 16:01:36 [http-nio-8888-exec-9] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6827c8d0]
+4227912 [DEBUG] 2019-12-27 16:01:37 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4227912 [DEBUG] 2019-12-27 16:01:37 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58e86907] was not registered for synchronization because synchronization is not active
+4227912 [DEBUG] 2019-12-27 16:01:37 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1066245990 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4227912 [DEBUG] 2019-12-27 16:01:37 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+4227912 [DEBUG] 2019-12-27 16:01:37 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4227918 [DEBUG] 2019-12-27 16:01:37 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+4227918 [DEBUG] 2019-12-27 16:01:37 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58e86907]
+4307673 [DEBUG] 2019-12-27 16:02:57 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4307673 [DEBUG] 2019-12-27 16:02:57 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b698125] was not registered for synchronization because synchronization is not active
+4307673 [DEBUG] 2019-12-27 16:02:57 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2029749629 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4307673 [DEBUG] 2019-12-27 16:02:57 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+4307673 [DEBUG] 2019-12-27 16:02:57 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4307683 [DEBUG] 2019-12-27 16:02:57 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+4307684 [DEBUG] 2019-12-27 16:02:57 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@6b698125]
+4331483 [DEBUG] 2019-12-27 16:03:21 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4331483 [DEBUG] 2019-12-27 16:03:21 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22d3432] was not registered for synchronization because synchronization is not active
+4331483 [DEBUG] 2019-12-27 16:03:21 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1417174742 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4331483 [DEBUG] 2019-12-27 16:03:21 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+4331483 [DEBUG] 2019-12-27 16:03:21 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4331499 [DEBUG] 2019-12-27 16:03:21 [http-nio-8888-exec-6] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+4331501 [DEBUG] 2019-12-27 16:03:21 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@22d3432]
+4354954 [DEBUG] 2019-12-27 16:03:44 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4354955 [DEBUG] 2019-12-27 16:03:44 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43905a40] was not registered for synchronization because synchronization is not active
+4354957 [DEBUG] 2019-12-27 16:03:44 [http-nio-8888-exec-8] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@321499581 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4354957 [DEBUG] 2019-12-27 16:03:44 [http-nio-8888-exec-8] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+4354957 [DEBUG] 2019-12-27 16:03:44 [http-nio-8888-exec-8] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4354959 [DEBUG] 2019-12-27 16:03:44 [http-nio-8888-exec-8] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+4354962 [DEBUG] 2019-12-27 16:03:44 [http-nio-8888-exec-8] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@43905a40]
+4355807 [DEBUG] 2019-12-27 16:03:45 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4355807 [DEBUG] 2019-12-27 16:03:45 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cad92a9] was not registered for synchronization because synchronization is not active
+4355808 [DEBUG] 2019-12-27 16:03:45 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1149340393 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4355808 [DEBUG] 2019-12-27 16:03:45 [http-nio-8888-exec-10] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+4355809 [DEBUG] 2019-12-27 16:03:45 [http-nio-8888-exec-10] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4355810 [DEBUG] 2019-12-27 16:03:45 [http-nio-8888-exec-10] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+4355811 [DEBUG] 2019-12-27 16:03:45 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1cad92a9]
+4374156 [DEBUG] 2019-12-27 16:04:03 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4374156 [DEBUG] 2019-12-27 16:04:03 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7791f69f] was not registered for synchronization because synchronization is not active
+4374156 [DEBUG] 2019-12-27 16:04:03 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1707240353 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4374156 [DEBUG] 2019-12-27 16:04:03 [http-nio-8888-exec-2] c.e.d.m.C.showMentorCurrentResults - ==>  Preparing: select * from training where mentor_name =? and training_state != '100%' 
+4374156 [DEBUG] 2019-12-27 16:04:03 [http-nio-8888-exec-2] c.e.d.m.C.showMentorCurrentResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4374156 [DEBUG] 2019-12-27 16:04:03 [http-nio-8888-exec-2] c.e.d.m.C.showMentorCurrentResults - <==      Total: 2
+4374156 [DEBUG] 2019-12-27 16:04:03 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@7791f69f]
+4374958 [DEBUG] 2019-12-27 16:04:04 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4374958 [DEBUG] 2019-12-27 16:04:04 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3bd134db] was not registered for synchronization because synchronization is not active
+4374958 [DEBUG] 2019-12-27 16:04:04 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@471263789 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4374958 [DEBUG] 2019-12-27 16:04:04 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+4374958 [DEBUG] 2019-12-27 16:04:04 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4374958 [DEBUG] 2019-12-27 16:04:04 [http-nio-8888-exec-4] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+4374958 [DEBUG] 2019-12-27 16:04:04 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3bd134db]
+4389683 [DEBUG] 2019-12-27 16:04:19 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4389683 [DEBUG] 2019-12-27 16:04:19 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58cfbb56] was not registered for synchronization because synchronization is not active
+4389699 [DEBUG] 2019-12-27 16:04:19 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1131692313 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4389699 [DEBUG] 2019-12-27 16:04:19 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - ==>  Preparing: select * from training where mentor_name =? and training_state = '100%' 
+4389699 [DEBUG] 2019-12-27 16:04:19 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - ==> Parameters: wdehaots@cn.ibm.com(String)
+4389699 [DEBUG] 2019-12-27 16:04:19 [http-nio-8888-exec-1] c.e.d.m.C.showMentorCompleteResults - <==      Total: 1
+4389701 [DEBUG] 2019-12-27 16:04:19 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@58cfbb56]
+4411862 [DEBUG] 2019-12-27 16:04:41 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4411862 [DEBUG] 2019-12-27 16:04:41 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a9e06] was not registered for synchronization because synchronization is not active
+4411862 [DEBUG] 2019-12-27 16:04:41 [http-nio-8888-exec-6] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1803400835 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4411862 [DEBUG] 2019-12-27 16:04:41 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==>  Preparing: select * from user where user_name=? and user_status=0 and user_access=? 
+4411862 [DEBUG] 2019-12-27 16:04:41 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - ==> Parameters: admin(String), admin(String)
+4411862 [DEBUG] 2019-12-27 16:04:41 [http-nio-8888-exec-6] c.e.demo.mapper.UserMapper.login - <==      Total: 1
+4411862 [DEBUG] 2019-12-27 16:04:41 [http-nio-8888-exec-6] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@9a9e06]
+4468324 [DEBUG] 2019-12-27 16:05:38 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4468324 [DEBUG] 2019-12-27 16:05:38 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f12d058] was not registered for synchronization because synchronization is not active
+4468327 [DEBUG] 2019-12-27 16:05:38 [http-nio-8888-exec-1] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@170052583 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4468327 [DEBUG] 2019-12-27 16:05:38 [http-nio-8888-exec-1] c.e.d.mapper.CourseMapper.showAllTec - ==>  Preparing: select * from technologies 
+4468327 [DEBUG] 2019-12-27 16:05:38 [http-nio-8888-exec-1] c.e.d.mapper.CourseMapper.showAllTec - ==> Parameters: 
+4468328 [DEBUG] 2019-12-27 16:05:38 [http-nio-8888-exec-1] c.e.d.mapper.CourseMapper.showAllTec - <==      Total: 7
+4468328 [DEBUG] 2019-12-27 16:05:38 [http-nio-8888-exec-1] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2f12d058]
+4556005 [DEBUG] 2019-12-27 16:07:05 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4556005 [DEBUG] 2019-12-27 16:07:05 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33cf580b] was not registered for synchronization because synchronization is not active
+4556011 [DEBUG] 2019-12-27 16:07:05 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1070842029 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4556011 [DEBUG] 2019-12-27 16:07:05 [http-nio-8888-exec-7] c.e.d.mapper.CourseMapper.showAllTec - ==>  Preparing: select * from technologies 
+4556011 [DEBUG] 2019-12-27 16:07:05 [http-nio-8888-exec-7] c.e.d.mapper.CourseMapper.showAllTec - ==> Parameters: 
+4556012 [DEBUG] 2019-12-27 16:07:05 [http-nio-8888-exec-7] c.e.d.mapper.CourseMapper.showAllTec - <==      Total: 7
+4556012 [DEBUG] 2019-12-27 16:07:05 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@33cf580b]
+4608092 [DEBUG] 2019-12-27 16:07:57 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4608092 [DEBUG] 2019-12-27 16:07:57 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5da690e8] was not registered for synchronization because synchronization is not active
+4608108 [DEBUG] 2019-12-27 16:07:57 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@628859085 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4608108 [DEBUG] 2019-12-27 16:07:57 [http-nio-8888-exec-2] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+4608109 [DEBUG] 2019-12-27 16:07:57 [http-nio-8888-exec-2] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+4608118 [DEBUG] 2019-12-27 16:07:57 [http-nio-8888-exec-2] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+4608118 [DEBUG] 2019-12-27 16:07:57 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@5da690e8]
+4649963 [DEBUG] 2019-12-27 16:08:39 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4649963 [DEBUG] 2019-12-27 16:08:39 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e1118b1] was not registered for synchronization because synchronization is not active
+4649972 [DEBUG] 2019-12-27 16:08:39 [http-nio-8888-exec-4] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@578907975 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4649972 [DEBUG] 2019-12-27 16:08:39 [http-nio-8888-exec-4] c.e.d.mapper.StudentMapper.showPay - ==>  Preparing: select * from payment where payment_id = ? 
+4649973 [DEBUG] 2019-12-27 16:08:39 [http-nio-8888-exec-4] c.e.d.mapper.StudentMapper.showPay - ==> Parameters: 0(Integer)
+4649973 [DEBUG] 2019-12-27 16:08:39 [http-nio-8888-exec-4] c.e.d.mapper.StudentMapper.showPay - <==      Total: 0
+4649973 [DEBUG] 2019-12-27 16:08:39 [http-nio-8888-exec-4] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2e1118b1]
+4694012 [DEBUG] 2019-12-27 16:09:23 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4694012 [DEBUG] 2019-12-27 16:09:23 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c543115] was not registered for synchronization because synchronization is not active
+4694019 [DEBUG] 2019-12-27 16:09:23 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@1435647380 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4694019 [DEBUG] 2019-12-27 16:09:23 [http-nio-8888-exec-7] c.e.d.m.CourseMapper.showAllUsers - ==>  Preparing: select * from user 
+4694019 [DEBUG] 2019-12-27 16:09:23 [http-nio-8888-exec-7] c.e.d.m.CourseMapper.showAllUsers - ==> Parameters: 
+4694019 [DEBUG] 2019-12-27 16:09:23 [http-nio-8888-exec-7] c.e.d.m.CourseMapper.showAllUsers - <==      Total: 5
+4694019 [DEBUG] 2019-12-27 16:09:23 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1c543115]
+4726941 [DEBUG] 2019-12-27 16:09:56 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4726941 [DEBUG] 2019-12-27 16:09:56 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1140bd9f] was not registered for synchronization because synchronization is not active
+4726950 [DEBUG] 2019-12-27 16:09:56 [http-nio-8888-exec-2] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@2022198927 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4726950 [DEBUG] 2019-12-27 16:09:56 [http-nio-8888-exec-2] c.e.d.m.CourseMapper.showAllUsers - ==>  Preparing: select * from user 
+4726950 [DEBUG] 2019-12-27 16:09:56 [http-nio-8888-exec-2] c.e.d.m.CourseMapper.showAllUsers - ==> Parameters: 
+4726953 [DEBUG] 2019-12-27 16:09:56 [http-nio-8888-exec-2] c.e.d.m.CourseMapper.showAllUsers - <==      Total: 5
+4726954 [DEBUG] 2019-12-27 16:09:56 [http-nio-8888-exec-2] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1140bd9f]
+4812173 [DEBUG] 2019-12-27 16:11:21 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4812173 [DEBUG] 2019-12-27 16:11:21 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ef633d8] was not registered for synchronization because synchronization is not active
+4812173 [DEBUG] 2019-12-27 16:11:21 [http-nio-8888-exec-7] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@60252554 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4812173 [DEBUG] 2019-12-27 16:11:21 [http-nio-8888-exec-7] c.e.d.m.StudentMapper.showAllPay - ==>  Preparing: select * from payment 
+4812173 [DEBUG] 2019-12-27 16:11:21 [http-nio-8888-exec-7] c.e.d.m.StudentMapper.showAllPay - ==> Parameters: 
+4812173 [DEBUG] 2019-12-27 16:11:21 [http-nio-8888-exec-7] c.e.d.m.StudentMapper.showAllPay - <==      Total: 4
+4812173 [DEBUG] 2019-12-27 16:11:21 [http-nio-8888-exec-7] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@3ef633d8]
+4815530 [DEBUG] 2019-12-27 16:11:25 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Creating a new SqlSession
+4815530 [DEBUG] 2019-12-27 16:11:25 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44970d9c] was not registered for synchronization because synchronization is not active
+4815530 [DEBUG] 2019-12-27 16:11:25 [http-nio-8888-exec-10] o.m.s.t.SpringManagedTransaction - JDBC Connection [HikariProxyConnection@878704509 wrapping com.mysql.cj.jdbc.ConnectionImpl@e1ccbe0] will not be managed by Spring
+4815530 [DEBUG] 2019-12-27 16:11:25 [http-nio-8888-exec-10] c.e.d.m.CourseMapper.showAllUsers - ==>  Preparing: select * from user 
+4815530 [DEBUG] 2019-12-27 16:11:25 [http-nio-8888-exec-10] c.e.d.m.CourseMapper.showAllUsers - ==> Parameters: 
+4815540 [DEBUG] 2019-12-27 16:11:25 [http-nio-8888-exec-10] c.e.d.m.CourseMapper.showAllUsers - <==      Total: 5
+4815541 [DEBUG] 2019-12-27 16:11:25 [http-nio-8888-exec-10] org.mybatis.spring.SqlSessionUtils - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@44970d9c]

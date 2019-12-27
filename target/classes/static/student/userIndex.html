@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user index</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="../js/jquery2.0.js"></script>
+    <style>
+        div{
+            padding-bottom: 10px;
+            padding-left: 20px;
+            align-content: center;
+            padding-top: 10px;
+        }
+    </style>
+    <link href="../css/head.css" rel="stylesheet">
+</head>
+<body style="background-image: url('../img/timg.jpg')">
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">welcome：
+                        <span id="user-name-label"></span>
+                    </a>
+                </div>
+                <div>
+                    <ul class="nav navbar-nav">
+                     <li><a id="checkout" href="#" onclick="checkout()">log out</a></li>
+                <li><a href="userPersonalCenter.html">person center</a></li>
+                <!--<li><a href="studentPersonalMsgCenter.html">已选课程列表</a></li>-->
+                 <li><a href="studentCurrentTraining.html">Current Training</a></li>
+                  <li><a href="studentCompleteTraining.html">Complete Training</a></li>
+                  <li><a href="chooseClass.html">choose your Mentor!!</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <script>
+        $(function() {
+
+            $.ajax({
+                type: "GET",
+                url: "/user/userMsg",
+                dataType: "json", //return dataType: text or json
+                data: null,
+                contentType: "application/json",
+                success: function (data) {
+                    console.log(data.name);
+                    // debugger
+                    $("#user-name-label").html(data.name)
+                }
+            });
+        });
+        
+        /*退出登录的ajax*/
+        function checkout() {
+            $.ajax({
+                type: "GET",
+                url: "/user/checkout",
+                dataType: "json", //return dataType: text or json
+                data: null,
+                contentType: "application/json",
+                success: function (data) {
+                    if(data.message=="200"){
+                        alert("log out success");
+                        window.location.href = "login.html";
+                    }else {
+                        alert("服务器错误，请联系管理员");
+                    }
+                }
+            });
+        }
+    </script>
+</body>
+</html>
